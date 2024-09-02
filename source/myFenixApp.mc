@@ -1,7 +1,7 @@
-using Toybox.Application as App;
-using Toybox.WatchUi as Ui;
+using Toybox.Application as Application;
+using Toybox.WatchUi as WatchUi;
 
-class myFenixApp extends App.AppBase {
+class MyFenixApp extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
@@ -17,12 +17,12 @@ class myFenixApp extends App.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new myFenixView() ];
+        return [ new MyFenixView() ];
     }
 
     // New app settings have been received so trigger a UI update
     function onSettingsChanged() {
-        Ui.requestUpdate();
+        WatchUi.requestUpdate();
     }
 
 }

@@ -1,17 +1,18 @@
 <properties>
-    <property id="backgroundColor" type="number">0x000000</property>
-    <property id="dateColor" type="number">0x00AAFF</property>
-    <property id="digitalTimeColor" type="number">0xFFFFFF</property>
-    <property id="analogTimeColor" type="number">0xAAAAAA</property>
+	<property id="backgroundColor" type="number">0x000000</property>
+	<property id="dateColor" type="number">0x00AAFF</property>
+	<property id="digitalTimeColor" type="number">0xFFFFFF</property>
+	<property id="analogTimeColor" type="number">0xAAAAAA</property>
+	<property id="fieldHRColor" type="number">0xFF0000</property>
 
 	<property id="field1Color" type="number">0xFFAA00</property>
 	<property id="field2Color" type="number">0xFFAA00</property>
-	<property id="field3Color" type="number">0xFFAA00</property>	
+	<property id="field3Color" type="number">0xFFAA00</property>
 	
+	<property id="digitalTimeOffset" type="number">100</property>
+
 	<property id="field1" type="number">1</property>
 	<property id="field2" type="number">3</property>
 	<property id="field3" type="number">5</property>
-	
-	<property id="fieldHR" type="boolean">true</property>
-	
+
 </properties>

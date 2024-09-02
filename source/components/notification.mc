@@ -3,38 +3,41 @@ using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.WatchUi as Ui;
 
-function renderConnection(dc)
+module Notification
 {
-	var connected = Sys.getDeviceSettings().phoneConnected;
-	if (connected)
+	function renderConnection(dc)
 	{
-		var xPercent = 61.5;
-		var yPercent = 7;
-		var icon = Ui.loadResource(Rez.Drawables.bluetooth);
-		dc.drawBitmap(xPercent * screenPercent, yPercent * screenPercent, icon);
+		var connected = Sys.getDeviceSettings().phoneConnected;
+		if (connected)
+		{
+			var xPercent = 61.5;
+			var yPercent = 4.5;
+			var icon = Ui.loadResource(Rez.Drawables.bluetooth);
+			dc.drawBitmap(xPercent * ScreenUtil.screenPercent, yPercent * ScreenUtil.screenPercent, icon);
+		}
 	}
-}
 
-function renderNotification(dc)
-{
-	var notificationCount = Sys.getDeviceSettings().notificationCount;
-	if (notificationCount > 0)
+	function renderNotification(dc)
 	{
-		var xPercent = 79;
-		var yPercent = 16;
-		var icon = Ui.loadResource(Rez.Drawables.notification);
-		dc.drawBitmap(xPercent * screenPercent, yPercent * screenPercent, icon);
+		var notificationCount = Sys.getDeviceSettings().notificationCount;
+		if (notificationCount > 0)
+		{
+			var xPercent = 78;
+			var yPercent = 17;
+			var icon = Ui.loadResource(Rez.Drawables.notification);
+			dc.drawBitmap(xPercent * ScreenUtil.screenPercent, yPercent * ScreenUtil.screenPercent, icon);
+		}
 	}
-}
 
-function renderAlarm(dc)
-{
-	var alarmCount = Sys.getDeviceSettings().alarmCount;
-	if (alarmCount > 0)
+	function renderAlarm(dc)
 	{
-		var xPercent = 92;
-		var yPercent = 35;
-		var icon = Ui.loadResource(Rez.Drawables.alarm);
-		dc.drawBitmap(xPercent * screenPercent, yPercent * screenPercent, icon);
+		var alarmCount = Sys.getDeviceSettings().alarmCount;
+		if (alarmCount > 0)
+		{
+			var xPercent = 92;
+			var yPercent = 34;
+			var icon = Ui.loadResource(Rez.Drawables.alarm);
+			dc.drawBitmap(xPercent * ScreenUtil.screenPercent, yPercent * ScreenUtil.screenPercent, icon);
+		}
 	}
 }

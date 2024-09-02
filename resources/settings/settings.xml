@@ -1,8 +1,8 @@
 <settings>
-	
-	 <setting propertyKey="@Properties.field1" title="@Strings.field1">
+
+	<setting propertyKey="@Properties.field1" title="@Strings.field1">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.none</listEntry>
+			<listEntry value="0">@Strings.disabled</listEntry>
 			<listEntry value="1">@Strings.altitude</listEntry>
 			<listEntry value="2">@Strings.calories</listEntry>
 			<listEntry value="3">@Strings.distance</listEntry>
@@ -10,7 +10,7 @@
 			<listEntry value="5">@Strings.steps</listEntry>
 		</settingConfig>
 	</setting>
-	
+
 	<setting propertyKey="@Properties.field1Color" title="@Strings.field1Color">
 		<settingConfig type="list">
 			<listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
@@ -27,10 +27,10 @@
 			<listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
 		</settingConfig>
 	</setting>
-	
+
 	<setting propertyKey="@Properties.field2" title="@Strings.field2">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.none</listEntry>
+			<listEntry value="0">@Strings.disabled</listEntry>
 			<listEntry value="1">@Strings.altitude</listEntry>
 			<listEntry value="2">@Strings.calories</listEntry>
 			<listEntry value="3">@Strings.distance</listEntry>
@@ -38,7 +38,7 @@
 			<listEntry value="5">@Strings.steps</listEntry>
 		</settingConfig>
 	</setting>
-	
+
 	<setting propertyKey="@Properties.field2Color" title="@Strings.field2Color">
 		<settingConfig type="list">
 			<listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
@@ -55,10 +55,10 @@
 			<listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
 		</settingConfig>
 	</setting>
-	
+
 	<setting propertyKey="@Properties.field3" title="@Strings.field3">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.none</listEntry>
+			<listEntry value="0">@Strings.disabled</listEntry>
 			<listEntry value="1">@Strings.altitude</listEntry>
 			<listEntry value="2">@Strings.calories</listEntry>
 			<listEntry value="3">@Strings.distance</listEntry>
@@ -66,7 +66,7 @@
 			<listEntry value="5">@Strings.steps</listEntry>
 		</settingConfig>
 	</setting>
-	
+
 	<setting propertyKey="@Properties.field3Color" title="@Strings.field3Color">
 		<settingConfig type="list">
 			<listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
@@ -84,76 +84,121 @@
 		</settingConfig>
 	</setting>
 
-     <setting propertyKey="@Properties.backgroundColor" title="@Strings.backgroundColor">
-        <settingConfig type="list">
-            <listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
-            <listEntry value="0xAAAAAA">@Strings.colorLightGray</listEntry>
-            <listEntry value="0x555555">@Strings.colorDarkGray</listEntry>
-            <listEntry value="0x000000">@Strings.colorBlack</listEntry>
-            <listEntry value="0xFF0000">@Strings.colorRed</listEntry>
-            <listEntry value="0xAA0000">@Strings.colorDarkRed</listEntry>
-            <listEntry value="0xFF5500">@Strings.colorOrange</listEntry>
-            <listEntry value="0xFFAA00">@Strings.colorYellow</listEntry>
-            <listEntry value="0x00FF00">@Strings.colorGreen</listEntry>
-            <listEntry value="0x00AA00">@Strings.colorDarkGreen</listEntry>
-            <listEntry value="0x00AAFF">@Strings.colorBlue</listEntry>
-            <listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
-        </settingConfig>
-    </setting>
-    
-    <setting propertyKey="@Properties.dateColor" title="@Strings.dateColor">
-        <settingConfig type="list">
-            <listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
-            <listEntry value="0xAAAAAA">@Strings.colorLightGray</listEntry>
-            <listEntry value="0x555555">@Strings.colorDarkGray</listEntry>
-            <listEntry value="0x000000">@Strings.colorBlack</listEntry>
-            <listEntry value="0xFF0000">@Strings.colorRed</listEntry>
-            <listEntry value="0xAA0000">@Strings.colorDarkRed</listEntry>
-            <listEntry value="0xFF5500">@Strings.colorOrange</listEntry>
-            <listEntry value="0xFFAA00">@Strings.colorYellow</listEntry>
-            <listEntry value="0x00FF00">@Strings.colorGreen</listEntry>
-            <listEntry value="0x00AA00">@Strings.colorDarkGreen</listEntry>
-            <listEntry value="0x00AAFF">@Strings.colorBlue</listEntry>
-            <listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
-        </settingConfig>
-    </setting>
-    
-    <setting propertyKey="@Properties.digitalTimeColor" title="@Strings.digitalTimeColor">
-        <settingConfig type="list">
-            <listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
-            <listEntry value="0xAAAAAA">@Strings.colorLightGray</listEntry>
-            <listEntry value="0x555555">@Strings.colorDarkGray</listEntry>
-            <listEntry value="0x000000">@Strings.colorBlack</listEntry>
-            <listEntry value="0xFF0000">@Strings.colorRed</listEntry>
-            <listEntry value="0xAA0000">@Strings.colorDarkRed</listEntry>
-            <listEntry value="0xFF5500">@Strings.colorOrange</listEntry>
-            <listEntry value="0xFFAA00">@Strings.colorYellow</listEntry>
-            <listEntry value="0x00FF00">@Strings.colorGreen</listEntry>
-            <listEntry value="0x00AA00">@Strings.colorDarkGreen</listEntry>
-            <listEntry value="0x00AAFF">@Strings.colorBlue</listEntry>
-            <listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
-        </settingConfig>
-    </setting>
-    
-    <setting propertyKey="@Properties.analogTimeColor" title="@Strings.analogTimeColor">
-        <settingConfig type="list">
-            <listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
-            <listEntry value="0xAAAAAA">@Strings.colorLightGray</listEntry>
-            <listEntry value="0x555555">@Strings.colorDarkGray</listEntry>
-            <listEntry value="0x000000">@Strings.colorBlack</listEntry>
-            <listEntry value="0xFF0000">@Strings.colorRed</listEntry>
-            <listEntry value="0xAA0000">@Strings.colorDarkRed</listEntry>
-            <listEntry value="0xFF5500">@Strings.colorOrange</listEntry>
-            <listEntry value="0xFFAA00">@Strings.colorYellow</listEntry>
-            <listEntry value="0x00FF00">@Strings.colorGreen</listEntry>
-            <listEntry value="0x00AA00">@Strings.colorDarkGreen</listEntry>
-            <listEntry value="0x00AAFF">@Strings.colorBlue</listEntry>
-            <listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
-        </settingConfig>
-    </setting>
-    
-    <setting propertyKey="@Properties.fieldHR" title="@Strings.fieldHR">
-		<settingConfig type="boolean" />
+	<setting propertyKey="@Properties.backgroundColor" title="@Strings.backgroundColor">
+		<settingConfig type="list">
+			<listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
+			<listEntry value="0xAAAAAA">@Strings.colorLightGray</listEntry>
+			<listEntry value="0x555555">@Strings.colorDarkGray</listEntry>
+			<listEntry value="0x000000">@Strings.colorBlack</listEntry>
+			<listEntry value="0xFF0000">@Strings.colorRed</listEntry>
+			<listEntry value="0xAA0000">@Strings.colorDarkRed</listEntry>
+			<listEntry value="0xFF5500">@Strings.colorOrange</listEntry>
+			<listEntry value="0xFFAA00">@Strings.colorYellow</listEntry>
+			<listEntry value="0x00FF00">@Strings.colorGreen</listEntry>
+			<listEntry value="0x00AA00">@Strings.colorDarkGreen</listEntry>
+			<listEntry value="0x00AAFF">@Strings.colorBlue</listEntry>
+			<listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.dateColor" title="@Strings.dateColor">
+		<settingConfig type="list">
+			<listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
+			<listEntry value="0xAAAAAA">@Strings.colorLightGray</listEntry>
+			<listEntry value="0x555555">@Strings.colorDarkGray</listEntry>
+			<listEntry value="0x000000">@Strings.colorBlack</listEntry>
+			<listEntry value="0xFF0000">@Strings.colorRed</listEntry>
+			<listEntry value="0xAA0000">@Strings.colorDarkRed</listEntry>
+			<listEntry value="0xFF5500">@Strings.colorOrange</listEntry>
+			<listEntry value="0xFFAA00">@Strings.colorYellow</listEntry>
+			<listEntry value="0x00FF00">@Strings.colorGreen</listEntry>
+			<listEntry value="0x00AA00">@Strings.colorDarkGreen</listEntry>
+			<listEntry value="0x00AAFF">@Strings.colorBlue</listEntry>
+			<listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.digitalTimeColor" title="@Strings.digitalTimeColor">
+		<settingConfig type="list">
+			<listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
+			<listEntry value="0xAAAAAA">@Strings.colorLightGray</listEntry>
+			<listEntry value="0x555555">@Strings.colorDarkGray</listEntry>
+			<listEntry value="0x000000">@Strings.colorBlack</listEntry>
+			<listEntry value="0xFF0000">@Strings.colorRed</listEntry>
+			<listEntry value="0xAA0000">@Strings.colorDarkRed</listEntry>
+			<listEntry value="0xFF5500">@Strings.colorOrange</listEntry>
+			<listEntry value="0xFFAA00">@Strings.colorYellow</listEntry>
+			<listEntry value="0x00FF00">@Strings.colorGreen</listEntry>
+			<listEntry value="0x00AA00">@Strings.colorDarkGreen</listEntry>
+			<listEntry value="0x00AAFF">@Strings.colorBlue</listEntry>
+			<listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.analogTimeColor" title="@Strings.analogTimeColor">
+		<settingConfig type="list">
+			<listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
+			<listEntry value="0xAAAAAA">@Strings.colorLightGray</listEntry>
+			<listEntry value="0x555555">@Strings.colorDarkGray</listEntry>
+			<listEntry value="0x000000">@Strings.colorBlack</listEntry>
+			<listEntry value="0xFF0000">@Strings.colorRed</listEntry>
+			<listEntry value="0xAA0000">@Strings.colorDarkRed</listEntry>
+			<listEntry value="0xFF5500">@Strings.colorOrange</listEntry>
+			<listEntry value="0xFFAA00">@Strings.colorYellow</listEntry>
+			<listEntry value="0x00FF00">@Strings.colorGreen</listEntry>
+			<listEntry value="0x00AA00">@Strings.colorDarkGreen</listEntry>
+			<listEntry value="0x00AAFF">@Strings.colorBlue</listEntry>
+			<listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.digitalTimeOffset" title="@Strings.digitalTimeOffset">
+		<settingConfig type="list">
+			<listEntry value="100">@Strings.disabled</listEntry>
+			<listEntry value="-12">@Strings.offsetM12</listEntry>
+			<listEntry value="-11">@Strings.offsetM11</listEntry>
+			<listEntry value="-10">@Strings.offsetM10</listEntry>
+			<listEntry value="-9">@Strings.offsetM9</listEntry>
+			<listEntry value="-8">@Strings.offsetM8</listEntry>
+			<listEntry value="-7">@Strings.offsetM7</listEntry>
+			<listEntry value="-6">@Strings.offsetM6</listEntry>
+			<listEntry value="-5">@Strings.offsetM5</listEntry>
+			<listEntry value="-4">@Strings.offsetM4</listEntry>
+			<listEntry value="-3">@Strings.offsetM3</listEntry>
+			<listEntry value="-2">@Strings.offsetM2</listEntry>
+			<listEntry value="-1">@Strings.offsetM1</listEntry>
+			<listEntry value="0">@Strings.offset0</listEntry>
+			<listEntry value="1">@Strings.offset1</listEntry>
+			<listEntry value="2">@Strings.offset2</listEntry>
+			<listEntry value="3">@Strings.offset3</listEntry>
+			<listEntry value="4">@Strings.offset4</listEntry>
+			<listEntry value="5">@Strings.offset5</listEntry>
+			<listEntry value="6">@Strings.offset6</listEntry>
+			<listEntry value="7">@Strings.offset7</listEntry>
+			<listEntry value="8">@Strings.offset8</listEntry>
+			<listEntry value="9">@Strings.offset9</listEntry>
+			<listEntry value="10">@Strings.offset10</listEntry>
+			<listEntry value="11">@Strings.offset11</listEntry>
+			<listEntry value="12">@Strings.offset12</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.fieldHRColor" title="@Strings.fieldHRColor">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.disabled</listEntry>
+			<listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
+			<listEntry value="0xAAAAAA">@Strings.colorLightGray</listEntry>
+			<listEntry value="0x555555">@Strings.colorDarkGray</listEntry>
+			<listEntry value="0x000000">@Strings.colorBlack</listEntry>
+			<listEntry value="0xFF0000">@Strings.colorRed</listEntry>
+			<listEntry value="0xAA0000">@Strings.colorDarkRed</listEntry>
+			<listEntry value="0xFF5500">@Strings.colorOrange</listEntry>
+			<listEntry value="0xFFAA00">@Strings.colorYellow</listEntry>
+			<listEntry value="0x00FF00">@Strings.colorGreen</listEntry>
+			<listEntry value="0x00AA00">@Strings.colorDarkGreen</listEntry>
+			<listEntry value="0x00AAFF">@Strings.colorBlue</listEntry>
+			<listEntry value="0x0000FF">@Strings.colorDarkBlue</listEntry>
+		</settingConfig>
 	</setting>
 
 </settings>

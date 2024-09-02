@@ -2,7 +2,7 @@
 
 	<string id="appName">myFenix</string>
 
-	<string id="none">None</string>
+	<string id="disabled">Disabled</string>
 	<string id="altitude">Altitude</string>
 	<string id="calories">Calories</string>
 	<string id="distance">Distance</string>
@@ -10,15 +10,13 @@
 	<string id="steps">Steps</string>
 	
 	<string id="field1">Field 1</string>
-	<string id="field2">Field 2</string>	
+	<string id="field2">Field 2</string>
 	<string id="field3">Field 3</string>
 
 	<string id="field1Color">Field 1 Color</string>
 	<string id="field2Color">Field 2 Color</string>
-	<string id="field3Color">Field 3 Color</string>
-	
-	<string id="fieldHR">Field HR</string>
-
+	<string id="field3Color">Field 3 Color</string>	
+	<string id="fieldHRColor">Field HR Color</string>
 	<string id="backgroundColor">Background Color</string>
 	<string id="dateColor">Date Color</string>
 	<string id="digitalTimeColor">Digital Time Color</string>
@@ -36,4 +34,32 @@
 	<string id="colorDarkGreen">DarkGreen</string>
 	<string id="colorBlue">Blue</string>
 	<string id="colorDarkBlue">Dark Blue</string>
+	
+	<string id="digitalTimeOffset">Time Zone</string>
+	<string id="offsetM12">UTC - 12:00</string>
+	<string id="offsetM11">UTC - 11:00</string>
+	<string id="offsetM10">UTC - 10:00</string>
+	<string id="offsetM9">UTC - 9:00</string>
+	<string id="offsetM8">UTC - 8:00</string>
+	<string id="offsetM7">UTC - 7:00</string>
+	<string id="offsetM6">UTC - 6:00</string>
+	<string id="offsetM5">UTC - 5:00</string>
+	<string id="offsetM4">UTC - 4:00</string>
+	<string id="offsetM3">UTC - 3:00</string>
+	<string id="offsetM2">UTC - 2:00</string>
+	<string id="offsetM1">UTC - 1:00</string>
+	<string id="offset0">UTC 0:00</string>
+	<string id="offset1">UTC + 1:00</string>
+	<string id="offset2">UTC + 2:00</string>
+	<string id="offset3">UTC + 3:00</string>
+	<string id="offset4">UTC + 4:00</string>
+	<string id="offset5">UTC + 5:00</string>
+	<string id="offset6">UTC + 6:00</string>
+	<string id="offset7">UTC + 7:00</string>
+	<string id="offset8">UTC + 8:00</string>
+	<string id="offset9">UTC + 9:00</string>
+	<string id="offset10">UTC + 10:00</string>
+	<string id="offset11">UTC + 11:00</string>
+	<string id="offset12">UTC + 12:00</string>
+	
 </strings>
