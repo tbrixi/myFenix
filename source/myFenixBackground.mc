@@ -1,20 +1,20 @@
-using Toybox.WatchUi as Ui;
-using Toybox.Application as App;
+using Toybox.WatchUi as WatchUi;
+using Toybox.Application as Application;
 using Toybox.Graphics as Gfx;
 
-class Background extends Ui.Drawable {
+class Background extends WatchUi.Drawable {
 
-    function initialize() {
-        var dictionary = {
-            :identifier => "Background"
-        };
+	function initialize() {
+		var dictionary = {
+		:identifier => "Background"
+		};
 
-        Drawable.initialize(dictionary);
-    }
+		Drawable.initialize(dictionary);
+	}
 
-    function draw(dc) {
+	function draw(dc) {
 
-        dc.setColor(Gfx.COLOR_TRANSPARENT, App.getApp().getProperty("BackgroundColor"));
-        dc.clear();
-    }
+		dc.setColor(Gfx.COLOR_TRANSPARENT, Application.getApp().getProperty("backgroundColor"));
+		dc.clear();
+	}
 }

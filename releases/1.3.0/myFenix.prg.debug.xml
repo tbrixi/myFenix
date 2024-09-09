@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="10" pc="268435456" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="12" pc="268435468" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="13" pc="268435485" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="14" pc="268435495" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="16" pc="268435506" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="17" pc="268435516" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="19" pc="268435568" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="20" pc="268435594" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="22" pc="268435642" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="23" pc="268435669" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="25" pc="268435706" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="27" pc="268435751" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="29" pc="268435756" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="30" pc="268435766" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="31" pc="268435773" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="32" pc="268435783" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="34" pc="268435791" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="37" pc="268435798" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Step.mc" lineNum="38" pc="268435824" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="8" pc="268435857" symbol="renderConnection"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="10" pc="268435869" symbol="renderConnection"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="11" pc="268435892" symbol="renderConnection"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="13" pc="268435897" symbol="renderConnection"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="14" pc="268435904" symbol="renderConnection"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="15" pc="268435911" symbol="renderConnection"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="16" pc="268435948" symbol="renderConnection"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="20" pc="268435976" symbol="renderNotification"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="22" pc="268435988" symbol="renderNotification"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="23" pc="268436011" symbol="renderNotification"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="25" pc="268436022" symbol="renderNotification"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="26" pc="268436029" symbol="renderNotification"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="27" pc="268436036" symbol="renderNotification"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="28" pc="268436073" symbol="renderNotification"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="32" pc="268436101" symbol="renderAlarm"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="34" pc="268436113" symbol="renderAlarm"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="35" pc="268436136" symbol="renderAlarm"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="37" pc="268436147" symbol="renderAlarm"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="38" pc="268436154" symbol="renderAlarm"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="39" pc="268436161" symbol="renderAlarm"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Notification.mc" lineNum="40" pc="268436198" symbol="renderAlarm"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="9" pc="268436226" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="11" pc="268436238" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="12" pc="268436251" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="13" pc="268436264" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="14" pc="268436283" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="15" pc="268436293" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="17" pc="268436303" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="18" pc="268436311" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="20" pc="268436329" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="21" pc="268436340" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="23" pc="268436393" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="27" pc="268436447" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="28" pc="268436507" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="30" pc="268436531" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="31" pc="268436548" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="32" pc="268436558" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="34" pc="268436569" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="38" pc="268436635" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="39" pc="268436688" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="40" pc="268436745" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="41" pc="268436812" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="42" pc="268436872" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="44" pc="268436942" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="46" pc="268436978" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="47" pc="268436982" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="48" pc="268436992" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="49" pc="268436999" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="50" pc="268437006" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="52" pc="268437024" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="54" pc="268437077" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="58" pc="268437136" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="59" pc="268437172" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="61" pc="268437190" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="63" pc="268437243" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="67" pc="268437305" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="68" pc="268437341" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="70" pc="268437359" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="72" pc="268437412" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="76" pc="268437477" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="77" pc="268437513" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="79" pc="268437531" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Mark.mc" lineNum="81" pc="268437584" symbol="renderHourMarks"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="8" pc="268437656" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="10" pc="268437668" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="12" pc="268437683" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="13" pc="268437703" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="14" pc="268437716" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="16" pc="268437778" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="18" pc="268437789" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="19" pc="268437802" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="20" pc="268437828" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="22" pc="268437876" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="24" pc="268437903" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hr.mc" lineNum="25" pc="268437940" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="8" pc="268437992" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="10" pc="268438004" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="11" pc="268438021" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="12" pc="268438031" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="13" pc="268438041" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="15" pc="268438051" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="16" pc="268438070" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="17" pc="268438080" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="18" pc="268438103" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="19" pc="268438139" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="20" pc="268438170" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="21" pc="268438223" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="23" pc="268438254" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="24" pc="268438283" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="25" pc="268438319" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="26" pc="268438350" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="27" pc="268438403" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="29" pc="268438434" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="31" pc="268438440" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="32" pc="268438469" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="33" pc="268438505" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="36" pc="268438539" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="37" pc="268438575" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="38" pc="268438596" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="39" pc="268438632" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="40" pc="268438653" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="41" pc="268438689" symbol="renderHands"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="45" pc="268438711" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="47" pc="268438723" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="48" pc="268438736" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="49" pc="268438749" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="50" pc="268438759" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="52" pc="268438769" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="58" pc="268438973" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="59" pc="268438981" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="60" pc="268439000" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="62" pc="268439019" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="64" pc="268439037" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="65" pc="268439068" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="66" pc="268439099" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Hand.mc" lineNum="69" pc="268439149" symbol="renderHand"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="13" pc="268439164" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="15" pc="268439176" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="16" pc="268439193" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="18" pc="268439209" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="20" pc="268439220" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="23" pc="268439224" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="25" pc="268439231" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="27" pc="268439255" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="29" pc="268439266" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="33" pc="268439321" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="34" pc="268439340" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="36" pc="268439360" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="40" pc="268439415" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="45" pc="268439470" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="47" pc="268439494" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="48" pc="268439507" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="50" pc="268439527" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="54" pc="268439582" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="55" pc="268439604" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="57" pc="268439624" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="61" pc="268439679" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="66" pc="268439734" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Distance.mc" lineNum="67" pc="268439760" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="10" pc="268439809" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="12" pc="268439821" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="13" pc="268439828" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="14" pc="268439835" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="15" pc="268439835" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="16" pc="268439852" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="17" pc="268439862" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="18" pc="268439885" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="20" pc="268439916" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="22" pc="268439936" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="25" pc="268439949" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="27" pc="268439954" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="28" pc="268439985" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="30" pc="268440001" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="32" pc="268440011" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="34" pc="268440031" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="37" pc="268440044" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="39" pc="268440063" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="43" pc="268440079" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="45" pc="268440085" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="49" pc="268440186" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="52" pc="268440254" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="53" pc="268440268" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Digitime.mc" lineNum="54" pc="268440321" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="9" pc="268440360" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="11" pc="268440372" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="12" pc="268440379" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="13" pc="268440386" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="14" pc="268440403" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="15" pc="268440440" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="16" pc="268440450" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="17" pc="268440460" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="18" pc="268440470" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="19" pc="268440480" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="21" pc="268440538" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Date.mc" lineNum="22" pc="268440591" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Calorie.mc" lineNum="8" pc="268440646" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Calorie.mc" lineNum="10" pc="268440658" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Calorie.mc" lineNum="11" pc="268440681" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Calorie.mc" lineNum="13" pc="268440692" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Calorie.mc" lineNum="14" pc="268440744" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Calorie.mc" lineNum="15" pc="268440770" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="7" pc="268440822" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="9" pc="268440834" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="10" pc="268440841" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="11" pc="268440848" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="12" pc="268440871" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="14" pc="268440923" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="16" pc="268440959" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="18" pc="268440970" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="21" pc="268441009" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="23" pc="268441020" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Battery.mc" lineNum="26" pc="268441059" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="10" pc="268441108" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="13" pc="268441120" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="15" pc="268441143" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="17" pc="268441173" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="20" pc="268441177" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="21" pc="268441184" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="23" pc="268441198" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="25" pc="268441224" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="27" pc="268441247" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="29" pc="268441265" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="32" pc="268441320" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="34" pc="268441338" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="35" pc="268441351" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="39" pc="268441406" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="40" pc="268441423" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="42" pc="268441438" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="44" pc="268441476" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="45" pc="268441483" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="46" pc="268441505" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="48" pc="268441521" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="49" pc="268441550" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="51" pc="268441567" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="52" pc="268441574" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="53" pc="268441581" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="54" pc="268441588" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="55" pc="268441595" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="57" pc="268441639" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="58" pc="268441643" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="59" pc="268441647" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="60" pc="268441657" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="61" pc="268441667" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="63" pc="268441711" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="64" pc="268441715" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="65" pc="268441719" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="66" pc="268441729" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="67" pc="268441739" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="69" pc="268441783" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="70" pc="268441787" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="71" pc="268441791" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="72" pc="268441801" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\components\\Altitude.mc" lineNum="73" pc="268441811" symbol="render"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="17" pc="268441856" symbol="initialize"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="18" pc="268441860" symbol="initialize"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="21" pc="268441879" symbol="onLayout"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="22" pc="268441883" symbol="onLayout"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="23" pc="268441902" symbol="onLayout"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="24" pc="268441921" symbol="onLayout"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="25" pc="268441952" symbol="onLayout"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="26" pc="268441974" symbol="onLayout"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="28" pc="268441996" symbol="onLayout"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="31" pc="268442034" symbol="onShow"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="35" pc="268442039" symbol="onHide"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="39" pc="268442044" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="41" pc="268442048" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="44" pc="268442059" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="46" pc="268442063" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="49" pc="268442074" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="50" pc="268442078" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="52" pc="268442098" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="53" pc="268442126" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="54" pc="268442154" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="56" pc="268442190" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="57" pc="268442204" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="58" pc="268442218" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="59" pc="268442232" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="61" pc="268442246" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="62" pc="268442266" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="63" pc="268442294" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="64" pc="268442322" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="66" pc="268442350" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="69" pc="268442395" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="71" pc="268442399" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="72" pc="268442399" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="73" pc="268442399" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="74" pc="268442430" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="76" pc="268442461" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="78" pc="268442472" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="79" pc="268442479" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="80" pc="268442486" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="85" pc="268442534" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="86" pc="268442541" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="87" pc="268442548" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="92" pc="268442596" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="93" pc="268442603" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="94" pc="268442610" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="99" pc="268442658" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="100" pc="268442665" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="101" pc="268442672" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="106" pc="268442720" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="107" pc="268442727" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="108" pc="268442734" symbol="renderField1"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="112" pc="268442782" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="114" pc="268442786" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="115" pc="268442786" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="116" pc="268442786" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="117" pc="268442817" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="119" pc="268442848" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="121" pc="268442859" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="122" pc="268442866" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="123" pc="268442873" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="128" pc="268442921" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="129" pc="268442928" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="130" pc="268442935" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="135" pc="268442969" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="136" pc="268442976" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="137" pc="268442983" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="142" pc="268443031" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="143" pc="268443038" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="144" pc="268443045" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="149" pc="268443093" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="150" pc="268443100" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="151" pc="268443107" symbol="renderField2"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="155" pc="268443155" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="157" pc="268443159" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="158" pc="268443159" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="159" pc="268443159" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="160" pc="268443190" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="162" pc="268443221" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="164" pc="268443232" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="165" pc="268443239" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="166" pc="268443246" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="171" pc="268443294" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="172" pc="268443301" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="173" pc="268443308" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="178" pc="268443342" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="179" pc="268443349" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="180" pc="268443356" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="185" pc="268443404" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="186" pc="268443411" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="187" pc="268443418" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="192" pc="268443466" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="193" pc="268443473" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="194" pc="268443480" symbol="renderField3"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="198" pc="268443528" symbol="renderFieldHR"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="200" pc="268443532" symbol="renderFieldHR"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="201" pc="268443563" symbol="renderFieldHR"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="203" pc="268443568" symbol="renderFieldHR"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="204" pc="268443599" symbol="renderFieldHR"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="205" pc="268443606" symbol="renderFieldHR"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixView.mc" lineNum="206" pc="268443613" symbol="renderFieldHR"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixBackground.mc" lineNum="7" pc="268443651" symbol="initialize"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixBackground.mc" lineNum="8" pc="268443655" symbol="initialize"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixBackground.mc" lineNum="12" pc="268443676" symbol="initialize"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixBackground.mc" lineNum="15" pc="268443697" symbol="draw"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixBackground.mc" lineNum="17" pc="268443701" symbol="draw"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixBackground.mc" lineNum="18" pc="268443754" symbol="draw"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixApp.mc" lineNum="6" pc="268443767" symbol="initialize"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixApp.mc" lineNum="7" pc="268443771" symbol="initialize"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixApp.mc" lineNum="11" pc="268443790" symbol="onStart"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixApp.mc" lineNum="15" pc="268443795" symbol="onStop"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixApp.mc" lineNum="19" pc="268443800" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixApp.mc" lineNum="20" pc="268443804" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixApp.mc" lineNum="24" pc="268443842" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\Tomas\\MyProjects\\workspace\\myFenix\\source\\MyFenixApp.mc" lineNum="25" pc="268443846" symbol="onSettingsChanged"/>
+<entry filename="Rez" lineNum="80" pc="268443863" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="84" pc="268443875" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="87" pc="268443899" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="50" symbol="offset12"/>
+<entry field="true" id="49" symbol="offset11"/>
+<entry field="true" id="48" symbol="offset10"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="61" symbol="colorDarkRed"/>
+<entry field="true" id="8389671" symbol="screenWidth"/>
+<entry id="38" method="true" symbol="renderFieldHR"/>
+<entry field="true" id="52" symbol="none"/>
+<entry field="true" id="53" symbol="enableDigitalTimeOffset"/>
+<entry id="23" module="true" symbol="Hand"/>
+<entry field="true" id="45" symbol="step"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389596" module="true" symbol="Notification"/>
+<entry field="true" id="42" symbol="bluetooth"/>
+<entry field="true" id="88" symbol="colorDarkBlue"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry field="true" id="44" symbol="notification"/>
+<entry field="true" id="41" symbol="bpm"/>
+<entry field="true" id="64" symbol="colorRed"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="30" object="true" symbol="MyFenixView"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="22" module="true" symbol="Hr"/>
+<entry id="102" method="true" symbol="renderHourMarks"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="8389761" symbol="centerY"/>
+<entry field="true" id="8389760" symbol="centerX"/>
+<entry field="true" id="105" symbol="mileScale"/>
+<entry field="true" id="60" symbol="field2Color"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="34" symbol="sleepMode"/>
+<entry field="true" id="8388737" symbol="calories"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="107" method="true" symbol="renderNotification"/>
+<entry field="true" id="56" symbol="offsetM12"/>
+<entry field="true" id="55" symbol="offsetM11"/>
+<entry field="true" id="57" symbol="offsetM10"/>
+<entry id="31" object="true" symbol="MyFenixApp"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="54" symbol="colorDarkGreen"/>
+<entry id="27" module="true" symbol="Calorie"/>
+<entry field="true" id="8389672" symbol="screenHeight"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry field="true" id="79" symbol="dateColor"/>
+<entry id="20" module="true" symbol="Step"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="103" symbol="unit"/>
+<entry id="21" module="true" symbol="Mark"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry field="true" id="84" symbol="analogTimeColor"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="92" symbol="colorGreen"/>
+<entry id="101" method="true" symbol="renderHand"/>
+<entry field="true" id="85" symbol="colorBlue"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="94" symbol="colorWhite"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8388963" symbol="altitude"/>
+<entry field="true" id="46" symbol="launcherIcon"/>
+<entry field="true" id="104" symbol="feetScale"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="43" symbol="alarm"/>
+<entry field="true" id="58" symbol="colorBlack"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="93" symbol="digitalTimeOffset"/>
+<entry field="true" id="87" symbol="colorOrange"/>
+<entry field="true" id="73" symbol="offset9"/>
+<entry field="true" id="71" symbol="offset8"/>
+<entry field="true" id="72" symbol="offset7"/>
+<entry field="true" id="8389743" symbol="backgroundColor"/>
+<entry field="true" id="76" symbol="offset6"/>
+<entry field="true" id="77" symbol="offset5"/>
+<entry field="true" id="74" symbol="offset4"/>
+<entry field="true" id="75" symbol="offset3"/>
+<entry field="true" id="82" symbol="offset2"/>
+<entry field="true" id="83" symbol="offset1"/>
+<entry field="true" id="80" symbol="offset0"/>
+<entry field="true" id="96" symbol="digitalTimeColor"/>
+<entry field="true" id="78" symbol="colorYellow"/>
+<entry field="true" id="47" symbol="field1Color"/>
+<entry id="100" method="true" symbol="renderHands"/>
+<entry id="29" module="true" symbol="Altitude"/>
+<entry field="true" id="70" symbol="offsetM9"/>
+<entry field="true" id="69" symbol="offsetM8"/>
+<entry field="true" id="68" symbol="offsetM7"/>
+<entry field="true" id="67" symbol="offsetM6"/>
+<entry field="true" id="66" symbol="offsetM5"/>
+<entry field="true" id="65" symbol="offsetM4"/>
+<entry field="true" id="63" symbol="offsetM3"/>
+<entry field="true" id="62" symbol="offsetM2"/>
+<entry field="true" id="59" symbol="offsetM1"/>
+<entry id="106" method="true" symbol="renderConnection"/>
+<entry id="8389702" method="true" symbol="getHeartRateHistory"/>
+<entry id="25" module="true" symbol="Digitime"/>
+<entry field="true" id="8388911" symbol="distance"/>
+<entry id="40" module="true" symbol="Layouts"/>
+<entry field="true" id="8388912" symbol="steps"/>
+<entry field="true" id="86" symbol="colorLightGray"/>
+<entry id="26" module="true" symbol="Date"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="28" module="true" symbol="Battery"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="91" symbol="appName"/>
+<entry field="true" id="99" symbol="field3Color"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry field="true" id="81" symbol="fieldHRColor"/>
+<entry id="39" module="true" symbol="Menus"/>
+<entry id="24" module="true" symbol="Distance"/>
+<entry field="true" id="51" symbol="hr"/>
+<entry field="true" id="89" symbol="enableFieldHR"/>
+<entry field="true" id="90" symbol="colorDarkGray"/>
+<entry field="true" id="97" symbol="field3"/>
+<entry field="true" id="98" symbol="field2"/>
+<entry field="true" id="95" symbol="field1"/>
+<entry id="37" method="true" symbol="renderField3"/>
+<entry id="36" method="true" symbol="renderField2"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="35" method="true" symbol="renderField1"/>
+<entry id="32" method="true" symbol="render"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="108" method="true" symbol="renderAlarm"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="33" symbol="screenPercent"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435850" name="progress" stackId="16" startPc="268435756"/>
+<entry endPc="268435850" name="width" stackId="14" startPc="268435756"/>
+<entry endPc="268435850" name="yProgress" stackId="15" startPc="268435756"/>
+<entry endPc="268435853" name="icon" stackId="13" startPc="268435506"/>
+<entry endPc="268435853" name="stringWidth" stackId="12" startPc="268435506"/>
+<entry endPc="268435853" name="stepsString" stackId="11" startPc="268435506"/>
+<entry endPc="268435853" name="stepGoal" stackId="10" startPc="268435506"/>
+<entry endPc="268435856" name="steps" stackId="9" startPc="268435468"/>
+<entry endPc="268435856" name="info" stackId="8" startPc="268435468"/>
+<entry endPc="268435857" name="x" stackId="4" startPc="268435456"/>
+<entry endPc="268435857" name="renderProgress" stackId="7" startPc="268435456"/>
+<entry endPc="268435857" name="dc" stackId="1" startPc="268435456"/>
+<entry endPc="268435857" name="fieldColor" stackId="6" startPc="268435456"/>
+<entry endPc="268435857" name="screenWidth" stackId="2" startPc="268435456"/>
+<entry endPc="268435857" name="screenPercent" stackId="3" startPc="268435456"/>
+<entry endPc="268435857" name="y" stackId="5" startPc="268435456"/>
+<entry endPc="268435972" name="yPercent" stackId="5" startPc="268435897"/>
+<entry endPc="268435972" name="xPercent" stackId="4" startPc="268435897"/>
+<entry endPc="268435972" name="icon" stackId="6" startPc="268435897"/>
+<entry endPc="268435975" name="connected" stackId="3" startPc="268435869"/>
+<entry endPc="268435976" name="dc" stackId="1" startPc="268435857"/>
+<entry endPc="268435976" name="screenPercent" stackId="2" startPc="268435857"/>
+<entry endPc="268436097" name="yPercent" stackId="5" startPc="268436022"/>
+<entry endPc="268436097" name="xPercent" stackId="4" startPc="268436022"/>
+<entry endPc="268436097" name="icon" stackId="6" startPc="268436022"/>
+<entry endPc="268436100" name="notificationCount" stackId="3" startPc="268435988"/>
+<entry endPc="268436101" name="dc" stackId="1" startPc="268435976"/>
+<entry endPc="268436101" name="screenPercent" stackId="2" startPc="268435976"/>
+<entry endPc="268436222" name="yPercent" stackId="5" startPc="268436147"/>
+<entry endPc="268436222" name="xPercent" stackId="4" startPc="268436147"/>
+<entry endPc="268436222" name="icon" stackId="6" startPc="268436147"/>
+<entry endPc="268436225" name="alarmCount" stackId="3" startPc="268436113"/>
+<entry endPc="268436226" name="dc" stackId="1" startPc="268436101"/>
+<entry endPc="268436226" name="screenPercent" stackId="2" startPc="268436101"/>
+<entry endPc="268436447" name="i" stackId="8" startPc="268436329"/>
+<entry endPc="268436632" name="hours" stackId="11" startPc="268436531"/>
+<entry endPc="268436632" name="clockTime" stackId="10" startPc="268436531"/>
+<entry endPc="268437136" name="i" stackId="16" startPc="268437024"/>
+<entry endPc="268437305" name="i" stackId="17" startPc="268437190"/>
+<entry endPc="268437477" name="i" stackId="18" startPc="268437359"/>
+<entry endPc="268437655" name="i" stackId="19" startPc="268437531"/>
+<entry endPc="268437655" name="screenWidth" stackId="2" startPc="268436238"/>
+<entry endPc="268437655" name="width2" stackId="15" startPc="268436238"/>
+<entry endPc="268437655" name="width" stackId="14" startPc="268436238"/>
+<entry endPc="268437655" name="screenHeight" stackId="3" startPc="268436238"/>
+<entry endPc="268437655" name="centerY" stackId="6" startPc="268436238"/>
+<entry endPc="268437655" name="min" stackId="13" startPc="268436238"/>
+<entry endPc="268437655" name="centerX" stackId="5" startPc="268436238"/>
+<entry endPc="268437655" name="hourMarkArray" stackId="7" startPc="268436238"/>
+<entry endPc="268437655" name="screenPercent" stackId="4" startPc="268436238"/>
+<entry endPc="268437655" name="numArray" stackId="9" startPc="268436238"/>
+<entry endPc="268437655" name="max" stackId="12" startPc="268436238"/>
+<entry endPc="268437656" name="dc" stackId="1" startPc="268436226"/>
+<entry endPc="268437985" name="bpmString" stackId="9" startPc="268437789"/>
+<entry endPc="268437985" name="icon" stackId="11" startPc="268437789"/>
+<entry endPc="268437985" name="stringWidth" stackId="10" startPc="268437789"/>
+<entry endPc="268437988" name="hr" stackId="7" startPc="268437683"/>
+<entry endPc="268437988" name="bpm" stackId="8" startPc="268437683"/>
+<entry endPc="268437988" name="hrIter" stackId="6" startPc="268437683"/>
+<entry endPc="268437992" name="x" stackId="3" startPc="268437656"/>
+<entry endPc="268437992" name="dc" stackId="1" startPc="268437656"/>
+<entry endPc="268437992" name="fieldColor" stackId="5" startPc="268437656"/>
+<entry endPc="268437992" name="screenPercent" stackId="2" startPc="268437656"/>
+<entry endPc="268437992" name="y" stackId="4" startPc="268437656"/>
+<entry endPc="268438536" name="sec" stackId="11" startPc="268438440"/>
+<entry endPc="268438710" name="hour" stackId="9" startPc="268438004"/>
+<entry endPc="268438710" name="min" stackId="10" startPc="268438004"/>
+<entry endPc="268438710" name="clock_min" stackId="7" startPc="268438004"/>
+<entry endPc="268438710" name="clock_hour" stackId="6" startPc="268438004"/>
+<entry endPc="268438710" name="clockTime" stackId="5" startPc="268438004"/>
+<entry endPc="268438710" name="clock_sec" stackId="8" startPc="268438004"/>
+<entry endPc="268438711" name="dc" stackId="1" startPc="268437992"/>
+<entry endPc="268438711" name="sleepMode" stackId="4" startPc="268437992"/>
+<entry endPc="268438711" name="centerY" stackId="3" startPc="268437992"/>
+<entry endPc="268438711" name="centerX" stackId="2" startPc="268437992"/>
+<entry endPc="268439136" name="x" stackId="15" startPc="268439037"/>
+<entry endPc="268439136" name="y" stackId="16" startPc="268439037"/>
+<entry endPc="268439149" name="i" stackId="14" startPc="268439037"/>
+<entry endPc="268439163" name="result" stackId="11" startPc="268438723"/>
+<entry endPc="268439163" name="sin" stackId="13" startPc="268438723"/>
+<entry endPc="268439163" name="hand" stackId="10" startPc="268438723"/>
+<entry endPc="268439163" name="cos" stackId="12" startPc="268438723"/>
+<entry endPc="268439163" name="centerY" stackId="9" startPc="268438723"/>
+<entry endPc="268439163" name="screenWidth" stackId="6" startPc="268438723"/>
+<entry endPc="268439163" name="centerX" stackId="8" startPc="268438723"/>
+<entry endPc="268439163" name="screenHeight" stackId="7" startPc="268438723"/>
+<entry endPc="268439164" name="overheadLength" stackId="5" startPc="268438711"/>
+<entry endPc="268439164" name="dc" stackId="1" startPc="268438711"/>
+<entry endPc="268439164" name="width" stackId="4" startPc="268438711"/>
+<entry endPc="268439164" name="length" stackId="3" startPc="268438711"/>
+<entry endPc="268439164" name="angle" stackId="2" startPc="268438711"/>
+<entry endPc="268439467" name="km" stackId="9" startPc="268439321"/>
+<entry endPc="268439731" name="miles" stackId="11" startPc="268439582"/>
+<entry endPc="268439731" name="feet" stackId="10" startPc="268439494"/>
+<entry endPc="268439808" name="distanceString" stackId="8" startPc="268439176"/>
+<entry endPc="268439808" name="meter" stackId="7" startPc="268439176"/>
+<entry endPc="268439808" name="info" stackId="6" startPc="268439176"/>
+<entry endPc="268439809" name="x" stackId="3" startPc="268439164"/>
+<entry endPc="268439809" name="dc" stackId="1" startPc="268439164"/>
+<entry endPc="268439809" name="fieldColor" stackId="5" startPc="268439164"/>
+<entry endPc="268439809" name="screenPercent" stackId="2" startPc="268439164"/>
+<entry endPc="268439809" name="y" stackId="4" startPc="268439164"/>
+<entry endPc="268440076" name="timeZoneOffset" stackId="12" startPc="268439954"/>
+<entry endPc="268440076" name="digitalTimeOffset" stackId="11" startPc="268439954"/>
+<entry endPc="268440359" name="hours" stackId="8" startPc="268439821"/>
+<entry endPc="268440359" name="font" stackId="13" startPc="268439821"/>
+<entry endPc="268440359" name="yPercent" stackId="5" startPc="268439821"/>
+<entry endPc="268440359" name="xPercent" stackId="4" startPc="268439821"/>
+<entry endPc="268440359" name="timeString" stackId="6" startPc="268439821"/>
+<entry endPc="268440359" name="is24Hour" stackId="9" startPc="268439821"/>
+<entry endPc="268440359" name="clockTime" stackId="7" startPc="268439821"/>
+<entry endPc="268440359" name="enableDigitalTimeOffset" stackId="10" startPc="268439821"/>
+<entry endPc="268440360" name="dc" stackId="1" startPc="268439809"/>
+<entry endPc="268440360" name="sleepMode" stackId="3" startPc="268439809"/>
+<entry endPc="268440360" name="screenPercent" stackId="2" startPc="268439809"/>
+<entry endPc="268440645" name="now" stackId="5" startPc="268440372"/>
+<entry endPc="268440645" name="dayOfWeek" stackId="10" startPc="268440372"/>
+<entry endPc="268440645" name="yPercent" stackId="4" startPc="268440372"/>
+<entry endPc="268440645" name="month" stackId="8" startPc="268440372"/>
+<entry endPc="268440645" name="xPercent" stackId="3" startPc="268440372"/>
+<entry endPc="268440645" name="year" stackId="9" startPc="268440372"/>
+<entry endPc="268440645" name="day" stackId="7" startPc="268440372"/>
+<entry endPc="268440645" name="dateString" stackId="11" startPc="268440372"/>
+<entry endPc="268440645" name="nowInfo" stackId="6" startPc="268440372"/>
+<entry endPc="268440646" name="dc" stackId="1" startPc="268440360"/>
+<entry endPc="268440646" name="screenPercent" stackId="2" startPc="268440360"/>
+<entry endPc="268440818" name="caloriesString" stackId="7" startPc="268440692"/>
+<entry endPc="268440821" name="calories" stackId="6" startPc="268440658"/>
+<entry endPc="268440822" name="x" stackId="3" startPc="268440646"/>
+<entry endPc="268440822" name="dc" stackId="1" startPc="268440646"/>
+<entry endPc="268440822" name="fieldColor" stackId="5" startPc="268440646"/>
+<entry endPc="268440822" name="screenPercent" stackId="2" startPc="268440646"/>
+<entry endPc="268440822" name="y" stackId="4" startPc="268440646"/>
+<entry endPc="268441107" name="batteryString" stackId="6" startPc="268440834"/>
+<entry endPc="268441107" name="batteryLevel" stackId="5" startPc="268440834"/>
+<entry endPc="268441107" name="yPercent" stackId="4" startPc="268440834"/>
+<entry endPc="268441107" name="xPercent" stackId="3" startPc="268440834"/>
+<entry endPc="268441108" name="dc" stackId="1" startPc="268440822"/>
+<entry endPc="268441108" name="screenPercent" stackId="2" startPc="268440822"/>
+<entry endPc="268441403" name="feet" stackId="10" startPc="268441338"/>
+<entry endPc="268441855" name="x2" stackId="18" startPc="268441120"/>
+<entry endPc="268441855" name="x1" stackId="16" startPc="268441120"/>
+<entry endPc="268441855" name="font" stackId="8" startPc="268441120"/>
+<entry endPc="268441855" name="stringWidth" stackId="11" startPc="268441120"/>
+<entry endPc="268441855" name="yOffset" stackId="15" startPc="268441120"/>
+<entry endPc="268441855" name="scale" stackId="13" startPc="268441120"/>
+<entry endPc="268441855" name="meter" stackId="6" startPc="268441120"/>
+<entry endPc="268441855" name="xOffset" stackId="14" startPc="268441120"/>
+<entry endPc="268441855" name="y2" stackId="19" startPc="268441120"/>
+<entry endPc="268441855" name="y1" stackId="17" startPc="268441120"/>
+<entry endPc="268441855" name="stringHeight" stackId="12" startPc="268441120"/>
+<entry endPc="268441855" name="altitudeString" stackId="7" startPc="268441120"/>
+<entry endPc="268441855" name="unit" stackId="9" startPc="268441120"/>
+<entry endPc="268441856" name="x" stackId="3" startPc="268441108"/>
+<entry endPc="268441856" name="dc" stackId="1" startPc="268441108"/>
+<entry endPc="268441856" name="fieldColor" stackId="5" startPc="268441108"/>
+<entry endPc="268441856" name="screenPercent" stackId="2" startPc="268441108"/>
+<entry endPc="268441856" name="y" stackId="4" startPc="268441108"/>
+<entry endPc="268442034" name="dc" stackId="1" startPc="268441879"/>
+<entry endPc="268442395" name="dc" stackId="1" startPc="268442074"/>
+<entry endPc="268442781" name="x" stackId="2" startPc="268442399"/>
+<entry endPc="268442781" name="fieldType" stackId="4" startPc="268442399"/>
+<entry endPc="268442781" name="fieldColor" stackId="5" startPc="268442399"/>
+<entry endPc="268442781" name="y" stackId="3" startPc="268442399"/>
+<entry endPc="268442782" name="dc" stackId="1" startPc="268442395"/>
+<entry endPc="268443154" name="x" stackId="2" startPc="268442786"/>
+<entry endPc="268443154" name="fieldType" stackId="4" startPc="268442786"/>
+<entry endPc="268443154" name="fieldColor" stackId="5" startPc="268442786"/>
+<entry endPc="268443154" name="y" stackId="3" startPc="268442786"/>
+<entry endPc="268443155" name="dc" stackId="1" startPc="268442782"/>
+<entry endPc="268443527" name="x" stackId="2" startPc="268443159"/>
+<entry endPc="268443527" name="fieldType" stackId="4" startPc="268443159"/>
+<entry endPc="268443527" name="fieldColor" stackId="5" startPc="268443159"/>
+<entry endPc="268443527" name="y" stackId="3" startPc="268443159"/>
+<entry endPc="268443528" name="dc" stackId="1" startPc="268443155"/>
+<entry endPc="268443647" name="x" stackId="4" startPc="268443568"/>
+<entry endPc="268443647" name="fieldColor" stackId="3" startPc="268443568"/>
+<entry endPc="268443647" name="y" stackId="5" startPc="268443568"/>
+<entry endPc="268443650" name="fieldHR" stackId="2" startPc="268443532"/>
+<entry endPc="268443651" name="dc" stackId="1" startPc="268443528"/>
+<entry endPc="268443696" name="dictionary" stackId="1" startPc="268443655"/>
+<entry endPc="268443767" name="dc" stackId="1" startPc="268443697"/>
+<entry endPc="268443795" name="state" stackId="1" startPc="268443790"/>
+<entry endPc="268443800" name="state" stackId="1" startPc="268443795"/>
+<entry endPc="268443916" name="rez_cmp_local_custom_drawable_4VK0PJ6O6KO3WBO54K8D" stackId="2" startPc="268443875"/>
+<entry endPc="268443917" name="dc" stackId="1" startPc="268443863"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="render" parent="Step">
+<param id="dc"/>
+<param id="screenWidth"/>
+<param id="screenPercent"/>
+<param id="x"/>
+<param id="y"/>
+<param id="fieldColor"/>
+<param id="renderProgress"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="renderConnection" parent="Notification">
+<param id="dc"/>
+<param id="screenPercent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="renderNotification" parent="Notification">
+<param id="dc"/>
+<param id="screenPercent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="renderAlarm" parent="Notification">
+<param id="dc"/>
+<param id="screenPercent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="renderHourMarks" parent="Mark">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="render" parent="Hr">
+<param id="dc"/>
+<param id="screenPercent"/>
+<param id="x"/>
+<param id="y"/>
+<param id="fieldColor"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="renderHands" parent="Hand">
+<param id="dc"/>
+<param id="centerX"/>
+<param id="centerY"/>
+<param id="sleepMode"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="renderHand" parent="Hand">
+<param id="dc"/>
+<param id="angle"/>
+<param id="length"/>
+<param id="width"/>
+<param id="overheadLength"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="render" parent="Distance">
+<param id="dc"/>
+<param id="screenPercent"/>
+<param id="x"/>
+<param id="y"/>
+<param id="fieldColor"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="render" parent="Digitime">
+<param id="dc"/>
+<param id="screenPercent"/>
+<param id="sleepMode"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="render" parent="Date">
+<param id="dc"/>
+<param id="screenPercent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="render" parent="Calorie">
+<param id="dc"/>
+<param id="screenPercent"/>
+<param id="x"/>
+<param id="y"/>
+<param id="fieldColor"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="render" parent="Battery">
+<param id="dc"/>
+<param id="screenPercent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="render" parent="Altitude">
+<param id="dc"/>
+<param id="screenPercent"/>
+<param id="x"/>
+<param id="y"/>
+<param id="fieldColor"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MyFenixView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="MyFenixView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="MyFenixView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="MyFenixView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="MyFenixView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="MyFenixView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="MyFenixView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="renderField1" parent="MyFenixView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="renderField2" parent="MyFenixView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="renderField3" parent="MyFenixView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="renderFieldHR" parent="MyFenixView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="Background">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MyFenixApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="MyFenixApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="MyFenixApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="MyFenixApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSettingsChanged" parent="MyFenixApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="175" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="446" parentId="globals" symbolId="Battery" type="module"/>
+<dataEntry offset="485" parentId="globals" symbolId="MyFenixView" type="class"/>
+<dataEntry offset="660" parentId="globals" symbolId="Altitude" type="module"/>
+<dataEntry offset="699" parentId="globals" symbolId="Digitime" type="module"/>
+<dataEntry offset="738" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="817" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="896" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="927" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="958" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="989" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="1028" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1523" parentId="globals" symbolId="Step" type="module"/>
+<dataEntry offset="1562" parentId="globals" symbolId="Date" type="module"/>
+<dataEntry offset="1601" parentId="globals" symbolId="Hand" type="module"/>
+<dataEntry offset="1648" parentId="globals" symbolId="Mark" type="module"/>
+<dataEntry offset="1687" parentId="globals" symbolId="Calorie" type="module"/>
+<dataEntry offset="1726" parentId="globals" symbolId="Distance" type="module"/>
+<dataEntry offset="1789" parentId="globals" symbolId="Notification" type="module"/>
+<dataEntry offset="1844" parentId="globals" symbolId="MyFenixApp" type="class"/>
+<dataEntry offset="1923" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry offset="1978" parentId="globals" symbolId="Hr" type="module"/>
+</dataEntryOffsetMappings>
+</debugInfo>
