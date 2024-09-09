@@ -14,5 +14,8 @@
 	<property id="field1" type="number">1</property>
 	<property id="field2" type="number">3</property>
 	<property id="field3" type="number">5</property>
+	
+	<property id="handsType" type="number">0</property>	
+	<property id="marksType" type="number">1</property>
 
 </properties>

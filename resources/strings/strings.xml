@@ -62,4 +62,16 @@
 	<string id="offset11">UTC + 11:00</string>
 	<string id="offset12">UTC + 12:00</string>
 	
+	<string id="handsType">Hands Type</string>
+	<string id="stickFilled">Stick Filled</string>
+	<string id="swordOutline">Sword Outline</string>
+	<string id="swordFilled">Sword Filled</string>
+	<string id="stealthFilled">Stealth Filled</string>
+	
+	<string id="marksType">Marks Type</string>
+	<string id="carrera">Carrera</string>
+	<string id="carreraNumbers">Carrera + Numbers</string>
+	<string id="scuba">Scuba</string>
+	<string id="numbers">Numbers</string>
+	
 </strings>

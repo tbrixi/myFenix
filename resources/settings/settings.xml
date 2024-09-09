@@ -152,6 +152,24 @@
 		</settingConfig>
 	</setting>
 
+	<setting propertyKey="@Properties.handsType" title="@Strings.handsType">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.stickFilled</listEntry>
+			<listEntry value="1">@Strings.swordOutline</listEntry>
+			<listEntry value="2">@Strings.swordFilled</listEntry>
+			<listEntry value="3">@Strings.stealthFilled</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.marksType" title="@Strings.marksType">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.carrera</listEntry>
+			<listEntry value="1">@Strings.carreraNumbers</listEntry>
+			<listEntry value="2">@Strings.scuba</listEntry>
+			<listEntry value="3">@Strings.numbers</listEntry>
+		</settingConfig>
+	</setting>
+
 	<setting propertyKey="@Properties.digitalTimeOffset" title="@Strings.digitalTimeOffset">
 		<settingConfig type="list">
 			<listEntry value="100">@Strings.disabled</listEntry>
