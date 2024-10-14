@@ -16,4 +16,9 @@ module ScreenUtil
 
 		screenPercent = screenWidth.toFloat() / 100;
 	}
+
+	function getResolution()
+	{
+		return [screenWidth, screenHeight];
+	}
 }
