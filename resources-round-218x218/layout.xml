@@ -1,0 +1,16 @@
+<layout id="WatchFace">
+	<label id="fieldBatery" x="center" y="34" text=""
+		font="Graphics.FONT_TINY"
+		justification="Graphics.TEXT_JUSTIFY_CENTER"
+		color="Graphics.COLOR_WHITE"/>
+
+	<label id="fieldDate" x="center" y="58" text=""
+		font="@Fonts.digital_28"
+		justification="Graphics.TEXT_JUSTIFY_CENTER"
+		color="Graphics.COLOR_WHITE"/>
+
+	<label id="fieldTime" x="center" y="130" text=""
+		font="@Fonts.digital_28"
+		justification="Graphics.TEXT_JUSTIFY_CENTER"
+		color="Graphics.COLOR_WHITE"/>
+</layout>

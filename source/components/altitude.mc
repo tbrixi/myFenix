@@ -1,72 +1,76 @@
-using Toybox.Activity as Act;
-using Toybox.Graphics as Gfx;
-using Toybox.Lang;
-using Toybox.System as Sys;
-using Toybox.WatchUi as Ui;
+import Toybox.Lang;
+import Toybox.WatchUi;
+class Altitude {
+	public function render(dc, fieldColor) as Void {
+		var altitudeString = getAltitudeString();
 
-module Altitude
-{
-	function render(dc, x, y, fieldColor)
-	{
-		var meter = Act.getActivityInfo().altitude;
-
-		if (meter == null || meter.toNumber() == 0.000000)
-		{
+		if (altitudeString.length() == 0) {
 			return;
 		}
 
+		dc.setColor(fieldColor, Graphics.COLOR_TRANSPARENT);
+
+		var x = 62;
+		var y = 160;
+		dc.drawText(
+			x,
+			y,
+			Graphics.FONT_TINY,
+			altitudeString,
+			Graphics.TEXT_JUSTIFY_LEFT
+		);
+
+		var icon = getAltitudeIcon();
+		if (icon == null) {
+			return;
+		}
+		var iconWidth = 12;
+		var iconHeight = 6;
+		dc.drawBitmap(x - iconWidth, y + iconHeight, icon);
+	}
+
+	function getAltitudeString() as String {
 		var altitudeString = "";
-		var font = Gfx.FONT_TINY;
 
-		dc.setColor(fieldColor, Gfx.COLOR_TRANSPARENT);
+		var meter = Activity.getActivityInfo().altitude;
 
-		var unit = Sys.getDeviceSettings().distanceUnits;
+		if (meter == null || meter.toNumber() == 0.0) {
+			return altitudeString;
+		}
 
-		if (unit == Sys.UNIT_METRIC)
-		{
+		var unit = System.getDeviceSettings().distanceUnits;
+
+		if (unit == System.UNIT_METRIC) {
 			altitudeString = Lang.format("$1$m", [meter.format("%01d")]);
 		}
 
-		if (unit == Sys.UNIT_STATUTE)
-		{
+		if (unit == System.UNIT_STATUTE) {
 			var feet = meter * Constants.feetScale;
-			altitudeString= Lang.format("$1$ft", [feet.format("%01d")]);
+			altitudeString = Lang.format("$1$ft", [feet.format("%01d")]);
 		}
 
-		var stringWidth = dc.getTextWidthInPixels(altitudeString, font);
-		var stringHeight = dc.getFontHeight(font);
+		return altitudeString;
+	}
 
-		dc.drawText(x * ScreenUtil.screenPercent, y * ScreenUtil.screenPercent, font, altitudeString, Gfx.TEXT_JUSTIFY_CENTER);
+	function getAltitudeIcon() {
+		var meter = Activity.getActivityInfo().altitude;
 
-		var scale = 0.5;
-		var xOffset = x * ScreenUtil.screenPercent - stringWidth / 2 - 16;
-		var yOffset = y * ScreenUtil.screenPercent + stringHeight - 6;
+		var icon = null;
 
-		dc.setColor(0xFFFFFF, Gfx.COLOR_TRANSPARENT);
-		dc.setPenWidth(1);
+		if (meter == null || meter.toNumber() == 0.0) {
+			return icon;
+		}
 
-		var x1 = 0;
-		var y1 = 0;
-		var x2 = 6;
-		var y2 = -12;
-		dc.drawLine(scale * x1 + xOffset, scale * y1 + yOffset, scale * x2 + xOffset, scale * y2 + yOffset);
+		var meterRounded = meter.toNumber();
 
-		x1 = x2;
-		y1 = y2;
-		x2 = x2 + 3;
-		y2 = y2 + 6;
-		dc.drawLine(scale * x1 + xOffset, scale * y1 + yOffset, scale * x2 + xOffset, scale * y2 + yOffset);
+		if (meterRounded < AppModel.lastAltitude) {
+			icon = WatchUi.loadResource(Rez.Drawables.altDown);
+		} else {
+			icon = WatchUi.loadResource(Rez.Drawables.altUp);
+		}
 
-		x1 = x2;
-		y1 = y2;
-		x2 = x2 + 6;
-		y2 = y2 - 12;
-		dc.drawLine(scale * x1 + xOffset, scale * y1 + yOffset, scale * x2 + xOffset, scale * y2 + yOffset);
+		AppModel.lastAltitude = meterRounded;
 
-		x1 = x2;
-		y1 = y2;
-		x2 = x2 + 9;
-		y2 = y2 + 19;
-		dc.drawLine(scale * x1 + xOffset, scale * y1 + yOffset, scale * x2 + xOffset, scale * y2 + yOffset);
+		return icon;
 	}
 }

@@ -1,0 +1,10 @@
+<drawables>
+	<bitmap id="launcherIcon" filename="images/launcher_icon.png"/>
+	<bitmap id="altUp" filename="images/alt_up_12.png"/>
+	<bitmap id="altDown" filename="images/alt_down_12.png"/>
+	<bitmap id="bpm" filename="images/bpm.png"/>
+	<bitmap id="bluetooth" filename="images/bluetooth.png"/>
+	<bitmap id="alarm" filename="images/alarm.png"/>
+	<bitmap id="notification" filename="images/notification.png"/>
+	<bitmap id="step" filename="images/step.png"/>
+</drawables>

@@ -1,28 +1,28 @@
-using Toybox.Application as Application;
-using Toybox.WatchUi as WatchUi;
+import Toybox.Application;
+import Toybox.WatchUi;
 
 class MyFenixApp extends Application.AppBase {
 
-    function initialize() {
-        AppBase.initialize();
-    }
+	function initialize() {
+		AppBase.initialize();
+	}
 
-    // onStart() is called on application start up
-    function onStart(state) {
-    }
+	// onStart() is called on application start up
+	function onStart(state) {
+	}
 
-    // onStop() is called when your application is exiting
-    function onStop(state) {
-    }
+	// onStop() is called when your application is exiting
+	function onStop(state) {
+	}
 
-    // Return the initial view of your application here
-    function getInitialView() {
-        return [ new MyFenixView() ];
-    }
+	// Return the initial view of your application here
+	function getInitialView() {
+		return [ new MyFenixView() ];
+	}
 
-    // New app settings have been received so trigger a UI update
-    function onSettingsChanged() {
-        WatchUi.requestUpdate();
-    }
+	// New app settings have been received so trigger a UI update
+	function onSettingsChanged() {
+		WatchUi.requestUpdate();
+	}
 
 }

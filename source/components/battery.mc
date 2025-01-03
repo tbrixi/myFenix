@@ -1,28 +1,25 @@
-using Toybox.Graphics as Gfx;
-using Toybox.Lang;
-using Toybox.System as Sys;
+import Toybox.Lang;
+import Toybox.System;
 
-module Battery
+class Battery
 {
-	function render(dc)
-	{
-		var xPercent = 50;
-		var yPercent = 18;
-		var batteryLevel = Sys.getSystemStats().battery;
+	public function render(field) as Void
+	{		
+		var batteryLevel = System.getSystemStats().battery;
 		var batteryString = Lang.format("$1$%", [batteryLevel.format("%01d")]);
 
-		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
+		field.setColor(Graphics.COLOR_GREEN);
 
 		if (batteryLevel < 50)
 		{
-			dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
+			field.setColor(Graphics.COLOR_ORANGE);
 		}
 
 		if (batteryLevel < 20)
 		{
-			dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+			field.setColor(Graphics.COLOR_RED);
 		}
 
-		dc.drawText(xPercent * ScreenUtil.screenPercent, yPercent * ScreenUtil.screenPercent, Gfx.FONT_TINY, batteryString, Gfx.TEXT_JUSTIFY_CENTER);
+		field.setText(batteryString);
 	}
 }

@@ -1,27 +1,23 @@
-using Toybox.Application as App;
-using Toybox.Graphics as Gfx;
-using Toybox.Lang;
-using Toybox.System as Sys;
-using Toybox.Time;
-using Toybox.WatchUi as WatchUi;
+import Toybox.Application;
+import Toybox.Lang;
+import Toybox.System;
+import Toybox.WatchUi;
 
-module Digitime
+class Digitime
 {
-	function render(dc, sleepMode)
-	{
-		var xPercent = 50;
-		var yPercent = 57;
+	public function render(field, sleepMode)
+	{		
 		var timeString;
-		var clockTime = Sys.getClockTime();
+		var clockTime = System.getClockTime();
 		var hours = clockTime.hour;
-		var is24Hour = Sys.getDeviceSettings().is24Hour;
+		var is24Hour = System.getDeviceSettings().is24Hour;
 
 		if (!is24Hour && hours >= 12)
 		{
 			hours = hours - 12;
 		}
 
-		var digitalTimeOffset = App.getApp().getProperty("digitalTimeOffset");
+		var digitalTimeOffset = Application.getApp().getProperty("digitalTimeOffset");
 		if (digitalTimeOffset != 100)
 		{
 			var timeZoneOffset = clockTime.timeZoneOffset / -3600;
@@ -57,7 +53,9 @@ module Digitime
 			timeString = Lang.format("$1$:$2$", [hours, clockTime.min.format("%02d")]);
 		}
 
-		dc.setColor(App.getApp().getProperty("digitalTimeColor"), Gfx.COLOR_TRANSPARENT);
-		dc.drawText(xPercent * ScreenUtil.screenPercent, yPercent * ScreenUtil.screenPercent, Gfx.FONT_LARGE, timeString, Gfx.TEXT_JUSTIFY_CENTER);
+		var color = Application.getApp().getProperty("digitalTimeColor");
+
+		field.setColor(color);
+		field.setText(timeString);
 	}
 }

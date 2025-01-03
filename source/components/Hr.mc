@@ -1,28 +1,31 @@
-using Toybox.ActivityMonitor as ActivityMonitor;
-using Toybox.Application as App;
-using Toybox.Graphics as Gfx;
-using Toybox.WatchUi as Ui;
-
-module Hr
-{
-	function render(dc, x , y, fieldColor)
-	{
-		if (ActivityMonitor has :getHeartRateHistory)
-		{
+class Hr {
+	public function render(dc, fieldColor) {
+		if (ActivityMonitor has :getHeartRateHistory) {
 			var hrIter = ActivityMonitor.getHeartRateHistory(null, true);
 			var hr = hrIter.next();
-			var bpm = (hr.heartRate != ActivityMonitor.INVALID_HR_SAMPLE && hr.heartRate > 0) ? hr.heartRate : 0;
+			var bpm =
+				hr.heartRate != ActivityMonitor.INVALID_HR_SAMPLE && hr.heartRate > 0
+					? hr.heartRate
+					: 0;
 
-			if (bpm > 0)
-			{
+			if (bpm > 0) {
 				var bpmString = bpm.toString();
-				dc.setColor(fieldColor, Gfx.COLOR_TRANSPARENT);
-				dc.drawText(x * ScreenUtil.screenPercent, y * ScreenUtil.screenPercent, Gfx.FONT_TINY, bpmString, Gfx.TEXT_JUSTIFY_CENTER);
+				dc.setColor(fieldColor, Graphics.COLOR_TRANSPARENT);
 
-				var stringWidth = dc.getTextWidthInPixels(bpmString, Gfx.FONT_TINY);
+				var x = 150;
+				var y = 160;
+				dc.drawText(
+					x,
+					y,
+					Graphics.FONT_TINY,
+					bpmString,
+					Graphics.TEXT_JUSTIFY_LEFT
+				);
 
-				var icon = Ui.loadResource(Rez.Drawables.bpm);
-				dc.drawBitmap(x * ScreenUtil.screenPercent - stringWidth / 2 - 16 , y * ScreenUtil.screenPercent + 6, icon);
+				var iconWidth = 18;
+				var iconHeight = 6;
+				var icon = WatchUi.loadResource(Rez.Drawables.bpm);
+				dc.drawBitmap(x - iconWidth, y + iconHeight, icon);
 			}
 		}
 	}

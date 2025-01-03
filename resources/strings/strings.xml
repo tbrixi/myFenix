@@ -2,24 +2,17 @@
 
 	<string id="appName">myFenix</string>
 
-	<string id="disabled">Disabled</string>
-	<string id="altitude">Altitude</string>
-	<string id="calories">Calories</string>
-	<string id="distance">Distance</string>
-	<string id="hr">HR</string>
-	<string id="steps">Steps</string>
-	
-	<string id="field1">Field 1</string>
-	<string id="field2">Field 2</string>
-	<string id="field3">Field 3</string>
+	<string id="disabled">Disabled</string>	
 
-	<string id="field1Color">Field 1 Color</string>
-	<string id="field2Color">Field 2 Color</string>
-	<string id="field3Color">Field 3 Color</string>	
-	<string id="fieldHRColor">Field HR Color</string>
-	<string id="backgroundColor">Background Color</string>
 	<string id="dateColor">Date Color</string>
+	<string id="stepsColor">Steps Color</string>
+	<string id="distanceColor">Distance Color</string>
+
 	<string id="digitalTimeColor">Digital Time Color</string>
+
+	<string id="altitudeColor">Altitude Color</string>
+	<string id="fieldHRColor">HR Color</string>
+	
 	<string id="analogTimeColor">Analog Time Color</string>
 	
 	<string id="colorWhite">White</string>

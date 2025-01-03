@@ -1,9 +1,20 @@
 <properties>
-	<property id="backgroundColor" type="number">0x000000</property>
-	<property id="dateColor" type="number">0x00AAFF</property>
+	
+	<property id="dateColor" type="number">0xFFFFFF</property>
+
+	<property id="stepsColor" type="number">0xFFFFFF</property>
+	<property id="distanceColor" type="number">0xFFFFFF</property>
+
 	<property id="digitalTimeColor" type="number">0xFFFFFF</property>
+
+	<property id="backgroundColor" type="number">0x000000</property>
+	
 	<property id="analogTimeColor" type="number">0xAAAAAA</property>
+
+	<property id="altitudeColor" type="number">0xAAAAAA</property>
+
 	<property id="fieldHRColor" type="number">0xFF0000</property>
+	
 
 	<property id="field1Color" type="number">0xFFAA00</property>
 	<property id="field2Color" type="number">0xFFAA00</property>

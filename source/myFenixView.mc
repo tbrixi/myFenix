@@ -1,13 +1,12 @@
-using Toybox.WatchUi as Ui;
-using Toybox.Graphics as Gfx;
-using Toybox.System as Sys;
-using Toybox.Lang as Lang;
-using Toybox.ActivityMonitor as ActivityMonitor;
-using Toybox.Application as App;
+import Toybox.ActivityMonitor;
+import Toybox.Application;
+import Toybox.Graphics;
+import Toybox.Lang;
+import Toybox.System;
+import Toybox.WatchUi;
 
-class MyFenixView extends Ui.WatchFace
-{
-	var sleepMode = true;
+class MyFenixView extends WatchUi.WatchFace {
+	private var sleepMode = true;
 
 	function initialize() {
 		WatchFace.initialize();
@@ -18,181 +17,100 @@ class MyFenixView extends Ui.WatchFace
 		setLayout(Rez.Layouts.WatchFace(dc));
 	}
 
-	function onShow()
-	{
-	}
+	function onShow() {}
 
-	function onHide()
-	{
-	}
+	function onHide() {}
 
-	function onExitSleep()
-	{
+	function onExitSleep() {
 		sleepMode = false;
 	}
 
-	function onEnterSleep()
-	{
+	function onEnterSleep() {
 		sleepMode = true;
+		WatchUi.requestUpdate();
 	}
 
 	function onUpdate(dc) {
 		View.onUpdate(dc);
 
-		Battery.render(dc);
-		Date.render(dc);
-		Digitime.render(dc, sleepMode);
+		renderRoundedRect(dc);
 
-		renderField1(dc);
-		renderField2(dc);
-		renderField3(dc);
+		renderAlarm(dc);
+		renderBluettoth(dc);
+		renderBatery();
+		renderNotification(dc);
+
+		renderDate();
+
+		renderSteps(dc);
+		renderDistance(dc);
+		renderAltitude(dc);
 		renderFieldHR(dc);
 
-		Mark.render(dc);
-		Notification.renderConnection(dc);
-		Notification.renderAlarm(dc);
-		Notification.renderNotification(dc);
+		renderTime();
 
+		Mark.render(dc);
 		Hand.renderHands(dc, sleepMode);
 	}
 
-	function renderField1(dc)
-	{
-		var x;
-		var y;
-		var fieldType = App.getApp().getProperty("field1");
-		var fieldColor = App.getApp().getProperty("field1Color");
+	function renderAlarm(dc) as Void {
+		(new Alarm()).render(dc);
+	}
 
-		if (fieldType == 1)
-		{
-			x = 33;
-			y = 45;
-			Altitude.render(dc, x, y, fieldColor);
-		}
+	function renderBluettoth(dc) as Void {
+		(new Bluetooth()).render(dc);
+	}
 
-		else if (fieldType == 2)
-		{
-			x = 30;
-			y = 45;
-			Calorie.render(dc, x, y, fieldColor);
-		}
+	function renderNotification(dc) as Void {
+		(new Notification()).render(dc);
+	}
 
-		else if (fieldType == 3)
-		{
-			x = 30;
-			y = 45;
-			Distance.render(dc, x, y, fieldColor);
-		}
+	function renderBatery() as Void {
+		var field = View.findDrawableById("fieldBatery") as WatchUi.Text;
+		(new Battery()).render(field);
+	}
 
-		else if (fieldType == 4)
-		{
-			x = 35;
-			y = 45;
-			Hr.render(dc, x, y, fieldColor);
-		}
+	function renderDate() as Void {
+		var field = View.findDrawableById("fieldDate") as WatchUi.Text;
+		(new Date()).render(field);
+	}
 
-		else if (fieldType == 5)
-		{
-			x = 32;
-			y = 45;
-			Step.render(dc, x, y, fieldColor, true);
+	function renderTime() as Void {
+		var field = View.findDrawableById("fieldTime") as WatchUi.Text;
+		(new Digitime()).render(field, sleepMode);
+	}
+
+	function renderRoundedRect(dc) as Void {
+		dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+		dc.drawRoundedRectangle(49, 58, 120, 30, 4);
+		dc.drawRoundedRectangle(49, 130, 120, 30, 4);
+	}
+
+	function renderSteps(dc) {
+		var fieldColor = Application.getApp().getProperty("stepsColor");
+		if (fieldColor != -1) {
+			(new Step()).render(dc, fieldColor);
 		}
 	}
 
-	function renderField2(dc)
-	{
-		var x;
-		var y;
-		var fieldType = App.getApp().getProperty("field2");
-		var fieldColor = App.getApp().getProperty("field2Color");
-
-		if (fieldType == 1)
-		{
-			x = 74;
-			y = 45;
-			Altitude.render(dc, x, y, fieldColor);
-		}
-
-		else if (fieldType == 2)
-		{
-			x = 73;
-			y = 45;
-			Calorie.render(dc, x, y, fieldColor);
-		}
-
-		else if (fieldType == 3)
-		{
-			x = 72;
-			y = 45;
-			Distance.render(dc, x, y, fieldColor);
-		}
-
-		else if (fieldType == 4)
-		{
-			x = 75;
-			y = 45;
-			Hr.render(dc, x, y, fieldColor);
-		}
-
-		else if (fieldType == 5)
-		{
-			x = 76;
-			y = 45;
-			Step.render(dc, x, y, fieldColor, true);
+	function renderDistance(dc) {
+		var fieldColor = Application.getApp().getProperty("distanceColor");
+		if (fieldColor != -1) {
+			(new Distance()).render(dc, fieldColor);
 		}
 	}
 
-	function renderField3(dc)
-	{
-		var x;
-		var y;
-		var fieldType = App.getApp().getProperty("field3");
-		var fieldColor = App.getApp().getProperty("field3Color");
-
-		if (fieldType == 1)
-		{
-			x = 50;
-			y = 74;
-			Altitude.render(dc, x, y, fieldColor);
-		}
-
-		else if (fieldType == 2)
-		{
-			x = 50;
-			y = 75;
-			Calorie.render(dc, x, y, fieldColor);
-		}
-
-		else if (fieldType == 3)
-		{
-			x = 50;
-			y = 75;
-			Distance.render(dc, x, y, fieldColor);
-		}
-
-		else if (fieldType == 4)
-		{
-			x = 53;
-			y = 75;
-			Hr.render(dc, x, y, fieldColor);
-		}
-
-		else if (fieldType == 5)
-		{
-			x = 50;
-			y = 74;
-			Step.render(dc, x, y, fieldColor, true);
+	function renderAltitude(dc) {
+		var fieldColor = Application.getApp().getProperty("altitudeColor");
+		if (fieldColor != -1) {
+			(new Altitude()).render(dc, fieldColor);
 		}
 	}
 
-	function renderFieldHR(dc)
-	{
-		var fieldColor = App.getApp().getProperty("fieldHRColor");
-		if (fieldColor != -1)
-		{
-			var x = 92;
-			var y = 57;
-			Hr.render(dc, x, y, fieldColor);
+	function renderFieldHR(dc) {
+		var fieldColor = Application.getApp().getProperty("fieldHRColor");
+		if (fieldColor != -1) {
+			(new Hr()).render(dc, fieldColor);
 		}
 	}
 }

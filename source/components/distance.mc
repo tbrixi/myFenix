@@ -1,68 +1,66 @@
-using Toybox.Application as App;
-using Toybox.ActivityMonitor;
-using Toybox.Graphics as Gfx;
-using Toybox.Lang;
-using Toybox.System as Sys;
+import Toybox.Lang;
 
-module Distance
-{
-	var unit = Sys.getDeviceSettings().distanceUnits;
+class Distance {
+	var unit = System.getDeviceSettings().distanceUnits;
 
-	function render(dc, x, y, fieldColor)
-	{
-		var info = ActivityMonitor.getInfo();
-		var meter = info.distance / 100;
+	public function render(dc, fieldColor) as Void {
+		var distanceString = getDistanceString();
 
-		if (meter == 0)
-		{
+		if (distanceString.length() == 0) {
 			return;
 		}
 
+		dc.setColor(fieldColor, Graphics.COLOR_TRANSPARENT);
+
+		var x = 155;
+		var y = 98;
+		dc.drawText(
+			x,
+			y,
+			Graphics.FONT_TINY,
+			distanceString,
+			Graphics.TEXT_JUSTIFY_CENTER
+		);
+
+	}
+
+	function getDistanceString() as String {
 		var distanceString = "";
 
-		if (unit == Sys.UNIT_METRIC)
-		{
-			if (meter < 999)
-			{
+		var info = ActivityMonitor.getInfo();
+		var meter = info.distance / 100;
+
+		if (meter == 0) {
+			return distanceString;
+		}
+
+		if (unit == System.UNIT_METRIC) {
+			if (meter < 999) {
 				distanceString = Lang.format("$1$m", [meter.format("%01d")]);
-			}
-			else
-			{
+			} else {
 				var km = meter.toFloat() / 1000;
-				if (km.toNumber() < 100)
-				{
+				if (km.toNumber() < 100) {
 					distanceString = Lang.format("$1$km", [km.format("%0.2f")]);
-				}
-				else
-				{
+				} else {
 					distanceString = Lang.format("$1$km", [km.format("%0.1f")]);
 				}
 			}
 		}
 
-		if (unit == Sys.UNIT_STATUTE)
-		{
+		if (unit == System.UNIT_STATUTE) {
 			var feet = meter * Constants.feetScale;
-			if (feet.toNumber() < 999)
-			{
+			if (feet.toNumber() < 999) {
 				distanceString = Lang.format("$1$ft", [feet.format("%01d")]);
-			}
-			else
-			{
+			} else {
 				var miles = meter.toFloat() / Constants.mileScale;
-				if (miles.toNumber() < 100)
-				{
+				if (miles.toNumber() < 100) {
 					distanceString = Lang.format("$1$mi", [miles.format("%0.2f")]);
-				}
-				else
-				{
+				} else {
 					distanceString = Lang.format("$1$mi", [miles.format("%0.1f")]);
 				}
 			}
 		}
 
-		dc.setColor(fieldColor, Gfx.COLOR_TRANSPARENT);
-		dc.drawText(x * ScreenUtil.screenPercent, y * ScreenUtil.screenPercent, Gfx.FONT_TINY, distanceString, Gfx.TEXT_JUSTIFY_CENTER);
-
+		return distanceString;
 	}
 }
