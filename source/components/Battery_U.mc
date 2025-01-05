@@ -18,7 +18,7 @@ module Battery
 			dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
 		}
 
-		if (batteryLevel < 25)
+		if (batteryLevel < 20)
 		{
 			dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
 		}
