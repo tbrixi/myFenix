@@ -1,9 +1,10 @@
+import Toybox.Graphics;
 import Toybox.Lang;
 
 class Distance {
 	var unit = System.getDeviceSettings().distanceUnits;
 
-	public function render(dc, fieldColor) as Void {
+	public function render(dc as Dc, fieldColor) as Void {
 		var distanceString = getDistanceString();
 
 		if (distanceString.length() == 0) {
@@ -12,8 +13,8 @@ class Distance {
 
 		dc.setColor(fieldColor, Graphics.COLOR_TRANSPARENT);
 
-		var x = 155;
-		var y = 98;
+		var x = Util.getValue("distanceX");
+		var y = Util.getValue("distanceY");
 		dc.drawText(
 			x,
 			y,
@@ -21,7 +22,6 @@ class Distance {
 			distanceString,
 			Graphics.TEXT_JUSTIFY_CENTER
 		);
-
 	}
 
 	function getDistanceString() as String {

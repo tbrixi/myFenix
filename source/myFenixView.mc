@@ -37,78 +37,73 @@ class MyFenixView extends WatchUi.WatchFace {
 
 		renderAlarm(dc);
 		renderBluettoth(dc);
-		renderBatery();
+		renderBatery(dc);
 		renderNotification(dc);
 
-		renderDate();
+		renderDate(dc);
 
 		renderSteps(dc);
 		renderDistance(dc);
 		renderAltitude(dc);
 		renderFieldHR(dc);
 
-		renderTime();
+		renderTime(dc);
 
-		Mark.render(dc);
-		Hand.renderHands(dc, sleepMode);
+		(new Mark()).render(dc as Dc);
+		(new Hand()).renderHands(dc, sleepMode);
 	}
 
 	function renderAlarm(dc) as Void {
-		(new Alarm()).render(dc);
+		(new Alarm()).render(dc as Dc);
 	}
 
 	function renderBluettoth(dc) as Void {
-		(new Bluetooth()).render(dc);
+		(new Bluetooth()).render(dc as Dc);
 	}
 
 	function renderNotification(dc) as Void {
-		(new Notification()).render(dc);
+		(new Notification()).render(dc as Dc);
 	}
 
-	function renderBatery() as Void {
-		var field = View.findDrawableById("fieldBatery") as WatchUi.Text;
-		(new Battery()).render(field);
+	function renderBatery(dc) as Void {
+		(new Battery()).render(dc as Dc);
 	}
 
-	function renderDate() as Void {
-		var field = View.findDrawableById("fieldDate") as WatchUi.Text;
-		(new Date()).render(field);
+	function renderDate(dc) as Void {
+		(new Date()).render(dc as Dc);
 	}
 
-	function renderTime() as Void {
-		var field = View.findDrawableById("fieldTime") as WatchUi.Text;
-		(new Digitime()).render(field, sleepMode);
+	function renderTime(dc) as Void {
+		(new Digitime()).render(dc, sleepMode);
 	}
 
 	function renderRoundedRect(dc) as Void {
-		dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-		dc.drawRoundedRectangle(49, 58, 120, 30, 4);
-		dc.drawRoundedRectangle(49, 130, 120, 30, 4);
+		(new Rect()).render(dc as Dc);
 	}
 
 	function renderSteps(dc) {
-		var fieldColor = Application.getApp().getProperty("stepsColor");
+		var fieldColor = Util.getValue("stepsColor");
 		if (fieldColor != -1) {
 			(new Step()).render(dc, fieldColor);
 		}
 	}
 
 	function renderDistance(dc) {
-		var fieldColor = Application.getApp().getProperty("distanceColor");
+		var fieldColor = Util.getValue("distanceColor");
 		if (fieldColor != -1) {
 			(new Distance()).render(dc, fieldColor);
 		}
 	}
 
 	function renderAltitude(dc) {
-		var fieldColor = Application.getApp().getProperty("altitudeColor");
+		var fieldColor = Util.getValue("altitudeColor");
 		if (fieldColor != -1) {
 			(new Altitude()).render(dc, fieldColor);
 		}
 	}
 
 	function renderFieldHR(dc) {
-		var fieldColor = Application.getApp().getProperty("fieldHRColor");
+		var fieldColor = Util.getValue("hrColor");
 		if (fieldColor != -1) {
 			(new Hr()).render(dc, fieldColor);
 		}

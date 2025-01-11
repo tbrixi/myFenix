@@ -1,5 +1,7 @@
+import Toybox.Graphics;
+
 class Hr {
-	public function render(dc, fieldColor) {
+	public function render(dc as Dc, fieldColor) {
 		if (ActivityMonitor has :getHeartRateHistory) {
 			var hrIter = ActivityMonitor.getHeartRateHistory(null, true);
 			var hr = hrIter.next();
@@ -12,8 +14,9 @@ class Hr {
 				var bpmString = bpm.toString();
 				dc.setColor(fieldColor, Graphics.COLOR_TRANSPARENT);
 
-				var x = 150;
-				var y = 160;
+				var x = Util.getValue("hrX");
+				var y = Util.getValue("hrY");
+
 				dc.drawText(
 					x,
 					y,

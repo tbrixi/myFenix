@@ -1,17 +1,20 @@
+import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
+
 class Altitude {
-	public function render(dc, fieldColor) as Void {
+	public function render(dc as Dc, fieldColor) as Void {
 		var altitudeString = getAltitudeString();
 
 		if (altitudeString.length() == 0) {
 			return;
 		}
 
+		var x = Util.getValue("altitudeX");
+		var y = Util.getValue("altitudeY");
+
 		dc.setColor(fieldColor, Graphics.COLOR_TRANSPARENT);
 
-		var x = 62;
-		var y = 160;
 		dc.drawText(
 			x,
 			y,

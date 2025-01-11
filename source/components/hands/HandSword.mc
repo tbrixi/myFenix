@@ -1,9 +1,11 @@
-using Toybox.Application as App;
-using Toybox.Graphics as Gfx;
-using Toybox.Math as Math;
-using Toybox.System as Sys;
+import Toybox.Application;
+import Toybox.Graphics;
+import Toybox.Lang;
+import Toybox.Math;
+import Toybox.System;
 
-module HandSword {
+class HandSword
+{
 	var clockTime;
 	var clockHour;
 	var clockMin;
@@ -18,8 +20,8 @@ module HandSword {
 	var secondLength = 45 * ScreenUtil.screenPercent;
 	var secondWidth = 3 * ScreenUtil.screenPercent;
 
-	function render(dc, sleepMode, filled) {
-		clockTime = Sys.getClockTime();
+	function render(dc as Dc, sleepMode as Boolean, filled as Boolean) {
+		clockTime = System.getClockTime();
 		clockHour = clockTime.hour;
 		clockMin = clockTime.min;
 		clockSec = clockTime.sec;
@@ -40,18 +42,12 @@ module HandSword {
 		hour = hour * Math.PI * 2;
 
 		if (filled) {
-			dc.setColor(
-				App.getApp().getProperty("analogTimeColor"),
-				Gfx.COLOR_TRANSPARENT
-			);
+			dc.setColor(Util.getValue("analogTimeColor"), Graphics.COLOR_TRANSPARENT);
 			renderFilledHand(dc, hour, hourLength, hourWidth);
 
-			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+			dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
 		} else {
-			dc.setColor(
-				App.getApp().getProperty("analogTimeColor"),
-				Gfx.COLOR_TRANSPARENT
-			);
+			dc.setColor(Util.getValue("analogTimeColor"), Graphics.COLOR_TRANSPARENT);
 		}
 
 		renderOutlineHand(dc, hour, hourLength, hourWidth);
@@ -61,18 +57,12 @@ module HandSword {
 		var min = (clockMin / 60.0) * Math.PI * 2;
 
 		if (filled) {
-			dc.setColor(
-				App.getApp().getProperty("analogTimeColor"),
-				Gfx.COLOR_TRANSPARENT
-			);
+			dc.setColor(Util.getValue("analogTimeColor"), Graphics.COLOR_TRANSPARENT);
 			renderFilledHand(dc, min, minuteLength, minuteWidth);
 
-			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+			dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
 		} else {
-			dc.setColor(
-				App.getApp().getProperty("analogTimeColor"),
-				Gfx.COLOR_TRANSPARENT
-			);
+			dc.setColor(Util.getValue("analogTimeColor"), Graphics.COLOR_TRANSPARENT);
 		}
 
 		renderOutlineHand(dc, min, minuteLength, minuteWidth);
@@ -80,22 +70,22 @@ module HandSword {
 
 	function renderSecondHand(dc) {
 		var sec = (clockSec / 60.0) * Math.PI * 2;
-		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+		dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
 		renderFilledHand(dc, sec, secondLength, secondWidth);
 	}
 
 	function renderCircle(dc) {
-		dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
+		dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
 		dc.fillCircle(ScreenUtil.centerX, ScreenUtil.centerY, 10);
-		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
 		dc.fillCircle(ScreenUtil.centerX, ScreenUtil.centerY, 8);
-		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+		dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
 		dc.fillCircle(ScreenUtil.centerX, ScreenUtil.centerY, 2);
 	}
 
 	function renderFilledHand(dc, rad, length, width) {
 		var poligonArrLen = 6;
-		var poligon = new [poligonArrLen];
+		var poligon = new Array<Array>[poligonArrLen];
 		poligon[0] = [0, 0];
 		poligon[1] = [width / 2, 0];
 		poligon[2] = [width, -length * 0.8];
@@ -112,7 +102,7 @@ module HandSword {
 
 	function renderOutlineHand(dc, rad, length, width) {
 		var poligonArrLen = 7;
-		var poligon = new [poligonArrLen];
+		var poligon = new Array<Array>[poligonArrLen];
 		poligon[0] = [0, 0];
 		poligon[1] = [width / 2, 0];
 		poligon[2] = [width, -length * 0.8];

@@ -1,0 +1,21 @@
+{
+	"files.exclude": {},
+	"files.watcherExclude": {
+		"out/": true,
+		"bin/": true,
+		"extra/": true,
+		"releases/": true
+	},
+	"search.exclude": {
+		"out/": true,
+		"bin/": true,
+		"extra/": true,
+		"releases/": true,
+		".github/": true,
+		".vscode/": true
+	},
+	"workbench.colorCustomizations": {
+		"titleBar.activeBackground": "#ffcc00c4",
+		"titleBar.inactiveBackground": "#ffcc004b"
+	}
+}

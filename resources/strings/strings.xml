@@ -1,20 +1,16 @@
 <strings>
-
 	<string id="appName">myFenix</string>
 
-	<string id="disabled">Disabled</string>	
+	<string id="disabled">Disabled</string>
 
 	<string id="dateColor">Date Color</string>
 	<string id="stepsColor">Steps Color</string>
 	<string id="distanceColor">Distance Color</string>
-
-	<string id="digitalTimeColor">Digital Time Color</string>
-
+	<string id="digiTimeColor">Digital Time Color</string>
 	<string id="altitudeColor">Altitude Color</string>
-	<string id="fieldHRColor">HR Color</string>
-	
+	<string id="hrColor">HR Color</string>
 	<string id="analogTimeColor">Analog Time Color</string>
-	
+
 	<string id="colorWhite">White</string>
 	<string id="colorLightGray">Light Gray</string>
 	<string id="colorDarkGray">Dark Gray</string>
@@ -27,8 +23,8 @@
 	<string id="colorDarkGreen">DarkGreen</string>
 	<string id="colorBlue">Blue</string>
 	<string id="colorDarkBlue">Dark Blue</string>
-	
-	<string id="digitalTimeOffset">Time Zone</string>
+
+	<string id="digiTimeOffset">Time Zone</string>
 	<string id="offsetM12">UTC - 12:00</string>
 	<string id="offsetM11">UTC - 11:00</string>
 	<string id="offsetM10">UTC - 10:00</string>
@@ -54,17 +50,14 @@
 	<string id="offset10">UTC + 10:00</string>
 	<string id="offset11">UTC + 11:00</string>
 	<string id="offset12">UTC + 12:00</string>
-	
+
 	<string id="handsType">Hands Type</string>
-	<string id="stickFilled">Stick Filled</string>
 	<string id="swordOutline">Sword Outline</string>
 	<string id="swordFilled">Sword Filled</string>
 	<string id="stealthFilled">Stealth Filled</string>
-	
+
 	<string id="marksType">Marks Type</string>
-	<string id="carrera">Carrera</string>
 	<string id="carreraNumbers">Carrera + Numbers</string>
-	<string id="scuba">Scuba</string>
+	<string id="carrera">Carrera</string>
 	<string id="numbers">Numbers</string>
-	
 </strings>

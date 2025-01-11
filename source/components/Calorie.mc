@@ -1,9 +1,10 @@
+import Toybox.Graphics;
 import Toybox.ActivityMonitor;
 import Toybox.Lang;
 
 class Calorie
 {
-	public function render(dc, field) as Void
+	public function render(dc as Dc, field) as Void
 	{
 		var calories = ActivityMonitor.getInfo().calories;
 		if (calories > 0)

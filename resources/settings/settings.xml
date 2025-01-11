@@ -16,7 +16,7 @@
 		</settingConfig>
 	</setting>
 
-	<setting propertyKey="@Properties.digitalTimeColor" title="@Strings.digitalTimeColor">
+	<setting propertyKey="@Properties.digiTimeColor" title="@Strings.digiTimeColor">
 		<settingConfig type="list">
 			<listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
 			<listEntry value="0xAAAAAA">@Strings.colorLightGray</listEntry>
@@ -85,7 +85,7 @@
 		</settingConfig>
 	</setting>
 
-	<setting propertyKey="@Properties.fieldHRColor" title="@Strings.fieldHRColor">
+	<setting propertyKey="@Properties.hrColor" title="@Strings.hrColor">
 		<settingConfig type="list">
 			<listEntry value="-1">@Strings.disabled</listEntry>
 			<listEntry value="0xFFFFFF">@Strings.colorWhite</listEntry>
@@ -103,9 +103,6 @@
 		</settingConfig>
 	</setting>
 
-	
-
-	
 
 	<setting propertyKey="@Properties.analogTimeColor" title="@Strings.analogTimeColor">
 		<settingConfig type="list">
@@ -126,23 +123,21 @@
 
 	<setting propertyKey="@Properties.handsType" title="@Strings.handsType">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.stickFilled</listEntry>
-			<listEntry value="1">@Strings.swordOutline</listEntry>
-			<listEntry value="2">@Strings.swordFilled</listEntry>
-			<listEntry value="3">@Strings.stealthFilled</listEntry>
+			<listEntry value="0">@Strings.swordOutline</listEntry>
+			<listEntry value="1">@Strings.swordFilled</listEntry>
+			<listEntry value="2">@Strings.stealthFilled</listEntry>
 		</settingConfig>
 	</setting>
 
 	<setting propertyKey="@Properties.marksType" title="@Strings.marksType">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.carrera</listEntry>
-			<listEntry value="1">@Strings.carreraNumbers</listEntry>
-			<listEntry value="2">@Strings.scuba</listEntry>
-			<listEntry value="3">@Strings.numbers</listEntry>
+			<listEntry value="0">@Strings.carreraNumbers</listEntry>
+			<listEntry value="1">@Strings.carrera</listEntry>
+			<listEntry value="2">@Strings.numbers</listEntry>
 		</settingConfig>
 	</setting>
 
-	<setting propertyKey="@Properties.digitalTimeOffset" title="@Strings.digitalTimeOffset">
+	<setting propertyKey="@Properties.digiTimeOffset" title="@Strings.digiTimeOffset">
 		<settingConfig type="list">
 			<listEntry value="100">@Strings.disabled</listEntry>
 			<listEntry value="-12">@Strings.offsetM12</listEntry>
