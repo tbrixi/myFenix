@@ -3,10 +3,8 @@ import Toybox.Lang;
 import Toybox.Math;
 import Toybox.WatchUi;
 
-class MarkNumbers
-{
-	public function render(dc as Dc) as Void 
-	{
+class MarkNumbers {
+	public function render(dc as Dc) as Void {
 		var numbers = getNumbers();
 		var font = Graphics.FONT_SYSTEM_TINY;
 		var font3 = Graphics.FONT_SYSTEM_LARGE;
@@ -103,11 +101,22 @@ class MarkNumbers
 		);
 	}
 
-	function getNumbers() as Array<String>
-	{
-		if (TimeUtil.is24Hour())
-		{
-			return ["24", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"];
+	function getNumbers() as Array<String> {
+		if (TimeUtil.is24Hour()) {
+			return [
+				"24",
+				"13",
+				"14",
+				"15",
+				"16",
+				"17",
+				"18",
+				"19",
+				"20",
+				"21",
+				"22",
+				"23",
+			];
 		} else {
 			return ["12", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"];
 		}

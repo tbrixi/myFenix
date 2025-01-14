@@ -4,6 +4,7 @@
     <iq:application entry="MyFenixApp" id="438D8F997BCE481CA00D4CB67831C215" launcherIcon="@Drawables.launcherIcon" minSdkVersion="1.4.0" name="@Strings.appName" type="watchface">
         <iq:products>
             <iq:product id="fenix3_hr"/>
+            <iq:product id="fenix5"/>
         </iq:products>
         <iq:permissions>
             <iq:uses-permission id="Background"/>

@@ -4,8 +4,7 @@ import Toybox.Lang;
 import Toybox.Math;
 import Toybox.System;
 
-class HandSword
-{
+class HandSword {
 	var clockTime;
 	var clockHour;
 	var clockMin;

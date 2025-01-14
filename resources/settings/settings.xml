@@ -121,6 +121,7 @@
 		</settingConfig>
 	</setting>
 
+
 	<setting propertyKey="@Properties.handsType" title="@Strings.handsType">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.swordOutline</listEntry>

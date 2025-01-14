@@ -27,9 +27,10 @@ class Altitude {
 		if (icon == null) {
 			return;
 		}
-		var iconWidth = 12;
-		var iconHeight = 6;
-		dc.drawBitmap(x - iconWidth, y + iconHeight, icon);
+
+		var icoX = Util.getValue("altitudeIcoX");
+		var icoY = Util.getValue("altitudeIcoY");
+		dc.drawBitmap(icoX, icoY, icon);
 	}
 
 	function getAltitudeString() as String {

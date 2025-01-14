@@ -4,10 +4,8 @@ import Toybox.Lang;
 import Toybox.Math;
 import Toybox.System;
 
-class MarkCarreraNumber
-{
-	public function render(dc as Dc) as Void
-	{
+class MarkCarreraNumber {
+	public function render(dc as Dc) as Void {
 		//var hourMarkArray = new [60];
 		var hourMarkArray = new Array<Array>[60];
 
@@ -19,7 +17,8 @@ class MarkCarreraNumber
 		}
 
 		var numbers = getNumbers();
-		var font = Graphics.FONT_LARGE;
+		//var font = Graphics.FONT_LARGE;
+		var font = WatchUi.loadResource($.Rez.Fonts.av_32);
 
 		dc.setColor(Util.getValue("analogTimeColor"), Graphics.COLOR_TRANSPARENT);
 
@@ -107,8 +106,7 @@ class MarkCarreraNumber
 		dc.fillPolygon(result);
 	}
 
-	function getNumbers() as Array<String>
-	{
+	function getNumbers() as Array<String> {
 		if (TimeUtil.is24Hour()) {
 			return ["24", "15", "18", "21"];
 		} else {

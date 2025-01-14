@@ -2,13 +2,10 @@ import Toybox.Graphics;
 import Toybox.ActivityMonitor;
 import Toybox.Lang;
 
-class Calorie
-{
-	public function render(dc as Dc, field) as Void
-	{
+class Calorie {
+	public function render(dc as Dc, field) as Void {
 		var calories = ActivityMonitor.getInfo().calories;
-		if (calories > 0)
-		{
+		if (calories > 0) {
 			var caloriesString = Lang.format("$1$kC", [calories.format("%01d")]);
 			field.setText(caloriesString);
 		}

@@ -5,13 +5,13 @@ class Mark {
 
 		switch (type) {
 			case 0:
-				new MarkCarreraNumber().render(dc);
+				(new MarkCarreraNumber()).render(dc);
 				break;
 			case 1:
-				new MarkCarrera().render(dc);
+				(new MarkCarrera()).render(dc);
 				break;
 			case 2:
-				new MarkNumbers().render(dc);
+				(new MarkNumbers()).render(dc);
 				break;
 			default:
 				break;
