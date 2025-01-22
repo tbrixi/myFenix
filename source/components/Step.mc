@@ -21,16 +21,12 @@ class Step {
 			Graphics.TEXT_JUSTIFY_CENTER
 		);
 
-		var stringWidth = dc.getTextWidthInPixels(stepsString, Graphics.FONT_TINY);	
+		var stringWidth = dc.getTextWidthInPixels(stepsString, Graphics.FONT_TINY);
 
-		var iconWidth = Util.getValue("stepsIcoW");
-		var iconHeight = Util.getValue("stepsIcoH");		
+		var iconX = Util.getValue("stepsIcoX");
+		var iconY = Util.getValue("stepsIcoY");
 		var icon = WatchUi.loadResource(Rez.Drawables.step);
-		dc.drawBitmap(
-			x - stringWidth / 2 - iconWidth,
-			y + iconHeight,
-			icon
-		);
+		dc.drawBitmap(x + iconX - stringWidth / 2, y + iconY, icon);
 	}
 
 	function getStepsString() as String {

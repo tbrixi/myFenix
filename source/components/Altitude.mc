@@ -28,9 +28,9 @@ class Altitude {
 			return;
 		}
 
-		var icoX = Util.getValue("altitudeIcoX");
-		var icoY = Util.getValue("altitudeIcoY");
-		dc.drawBitmap(icoX, icoY, icon);
+		var iconX = Util.getValue("altitudeIcoX");
+		var iconY = Util.getValue("altitudeIcoY");
+		dc.drawBitmap(x + iconX, y + iconY, icon);
 	}
 
 	function getAltitudeString() as String {

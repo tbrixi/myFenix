@@ -6,7 +6,6 @@ import Toybox.System;
 
 class MarkCarreraNumber {
 	public function render(dc as Dc) as Void {
-		//var hourMarkArray = new [60];
 		var hourMarkArray = new Array<Array>[60];
 
 		for (var i = 0; i < 60; i += 1) {
@@ -17,7 +16,6 @@ class MarkCarreraNumber {
 		}
 
 		var numbers = getNumbers();
-		//var font = Graphics.FONT_LARGE;
 		var font = WatchUi.loadResource($.Rez.Fonts.av_32);
 
 		dc.setColor(Util.getValue("analogTimeColor"), Graphics.COLOR_TRANSPARENT);

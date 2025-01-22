@@ -1,7 +1,7 @@
 import Toybox.Graphics;
 class Hand {
 	function renderHands(dc as Dc, sleepMode) {
-		// var type = Util.getValue("handsType");
+		//var type = Util.getValue("handsType");
 
 		// switch (type) {
 		// 	case 0:

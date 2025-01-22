@@ -13,6 +13,8 @@
 
 	<property id="stepsX" type="number">70</property>
 	<property id="stepsY" type="number">98</property>
+	<property id="stepsIcoX" type="number">-12</property>
+	<property id="stepsIcoY" type="number">4</property>
 
 	<property id="distanceX" type="number">155</property>
 	<property id="distanceY" type="number">98</property>
@@ -25,9 +27,13 @@
 
 	<property id="altitudeX" type="number">56</property>
 	<property id="altitudeY" type="number">160</property>
+	<property id="altitudeIcoX" type="number">-12</property>
+	<property id="altitudeIcoY" type="number">6</property>
 
 	<property id="hrX" type="number">155</property>
 	<property id="hrY" type="number">160</property>
+	<property id="hrIcoX" type="number">-16</property>
+	<property id="hrIcoY" type="number">6</property>
 
 	<property id="topRectX" type="number">44</property>
 	<property id="topRectY" type="number">58</property>
