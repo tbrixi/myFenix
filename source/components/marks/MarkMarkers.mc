@@ -4,7 +4,7 @@ import Toybox.Lang;
 import Toybox.Math;
 import Toybox.System;
 
-class MarkCarrera {
+class MarkMarkers {
 	public function render(dc as Dc) {
 		var totalItems = 12;
 		var hourMarkArray = new Array<Array>[totalItems];

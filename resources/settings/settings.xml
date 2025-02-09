@@ -132,8 +132,8 @@
 
 	<setting propertyKey="@Properties.marksType" title="@Strings.marksType">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.carreraNumbers</listEntry>
-			<listEntry value="1">@Strings.carrera</listEntry>
+			<listEntry value="0">@Strings.markersNumbers</listEntry>
+			<listEntry value="1">@Strings.markers</listEntry>
 			<listEntry value="2">@Strings.numbers</listEntry>
 		</settingConfig>
 	</setting>

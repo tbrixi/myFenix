@@ -5,9 +5,9 @@ import Toybox.System;
 //  Util.getValue("");
 module Util {
 	function getValue(name as String) {
-		//return Application.getApp().getProperty(name);
+		return Application.getApp().getProperty(name);
 
-		return getPositionlValue(name);
+		//return getPositionlValue(name);
 	}
 
 	function getPositionlValue(name as String) {

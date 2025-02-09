@@ -5,10 +5,9 @@
         <iq:products>
             <iq:product id="fenix3_hr"/>
             <iq:product id="fenix5"/>
+            <iq:product id="fenix5plus"/>
         </iq:products>
         <iq:permissions>
-            <iq:uses-permission id="Background"/>
-            <iq:uses-permission id="Sensor"/>
             <iq:uses-permission id="SensorHistory"/>
             <iq:uses-permission id="UserProfile"/>
         </iq:permissions>

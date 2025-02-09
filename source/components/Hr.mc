@@ -21,8 +21,6 @@ class Hr {
 			Graphics.TEXT_JUSTIFY_LEFT
 		);
 
-		var stringWidth = dc.getTextWidthInPixels(bpmString, Graphics.FONT_TINY);
-
 		var icoX = Util.getValue("hrIcoX");
 		var icoY = Util.getValue("hrIcoY");
 		var icon = WatchUi.loadResource(Rez.Drawables.bpm);

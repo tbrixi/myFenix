@@ -57,7 +57,7 @@
 	<string id="stealthFilled">Stealth Filled</string>
 
 	<string id="marksType">Marks Type</string>
-	<string id="carreraNumbers">Carrera + Numbers</string>
-	<string id="carrera">Carrera</string>
+	<string id="markersNumbers">Markers + Numbers</string>
+	<string id="markers">Markers</string>
 	<string id="numbers">Numbers</string>
 </strings>
