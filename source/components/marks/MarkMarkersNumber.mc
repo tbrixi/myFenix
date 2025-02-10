@@ -6,12 +6,13 @@ import Toybox.System;
 
 class MarkMarkersNumber {
 	public function render(dc as Dc) as Void {
-		var hourMarkArray = new Array<Array>[60];
+		var totalItems = 60.0;
+		var hourMarkArray = new Array<Array>[totalItems];
 
-		for (var i = 0; i < 60; i += 1) {
-			hourMarkArray[i] = new Array<Number>[2];
+		for (var i = 0; i < totalItems; i += 1) {
+			hourMarkArray[i] = new [2];
 			if (!TimeUtil.isQuarter(i)) {
-				hourMarkArray[i][0] = (i / 60.0) * Math.PI * 2;
+				hourMarkArray[i][0] = (i / totalItems) * Math.PI * 2;
 			}
 		}
 
@@ -56,28 +57,28 @@ class MarkMarkersNumber {
 		var width = 4 * ScreenUtil.screenPercent;
 		var width2 = 2 * ScreenUtil.screenPercent;
 
-		for (var i = 0; i < 60; i += 5) {
+		for (var i = 0; i < totalItems; i += 5) {
 			if (!TimeUtil.isQuarter(i)) {
 				renderMark(dc, hourMarkArray[i][0], max, width, -min);
 			}
 		}
 
 		dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-		for (var i = 0; i < 60; i += 5) {
+		for (var i = 0; i < totalItems; i += 5) {
 			if (!TimeUtil.isQuarter(i)) {
 				renderMark(dc, hourMarkArray[i][0], max - width, width, -min);
 			}
 		}
 
 		dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-		for (var i = 0; i < 60; i += 5) {
+		for (var i = 0; i < totalItems; i += 5) {
 			if (!TimeUtil.isQuarter(i)) {
 				renderMark(dc, hourMarkArray[i][0], max, width2, -0.94 * max);
 			}
 		}
 
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-		for (var i = 0; i < 60; i += 5) {
+		for (var i = 0; i < totalItems; i += 5) {
 			if (!TimeUtil.isQuarter(i)) {
 				renderMark(dc, hourMarkArray[i][0], 0.94 * max, width2, -1.02 * min);
 			}

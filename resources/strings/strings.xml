@@ -24,7 +24,7 @@
 	<string id="colorBlue">Blue</string>
 	<string id="colorDarkBlue">Dark Blue</string>
 
-	<string id="digiTimeOffset">Time Zone</string>
+	<string id="digiTimeOffset">Digital Time Zone</string>
 	<string id="offsetM12">UTC - 12:00</string>
 	<string id="offsetM11">UTC - 11:00</string>
 	<string id="offsetM10">UTC - 10:00</string>
@@ -51,12 +51,12 @@
 	<string id="offset11">UTC + 11:00</string>
 	<string id="offset12">UTC + 12:00</string>
 
-	<string id="handsType">Hands Type</string>
+	<string id="handsType">Clock Hands</string>
 	<string id="swordOutline">Sword Outline</string>
 	<string id="swordFilled">Sword Filled</string>
 	<string id="stealthFilled">Stealth Filled</string>
 
-	<string id="marksType">Marks Type</string>
+	<string id="marksType">Clock Marks</string>
 	<string id="markersNumbers">Markers + Numbers</string>
 	<string id="markers">Markers</string>
 	<string id="numbers">Numbers</string>

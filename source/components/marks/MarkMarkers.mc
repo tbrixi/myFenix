@@ -6,7 +6,7 @@ import Toybox.System;
 
 class MarkMarkers {
 	public function render(dc as Dc) {
-		var totalItems = 12;
+		var totalItems = 12.0;
 		var hourMarkArray = new Array<Array>[totalItems];
 
 		var max = ScreenUtil.centerX;
@@ -17,7 +17,7 @@ class MarkMarkers {
 		renderMain(dc);
 
 		for (var i = 0; i < totalItems; i++) {
-			hourMarkArray[i] = new Array<Number>[2];
+			hourMarkArray[i] = new [2];
 			hourMarkArray[i][0] = (i / totalItems) * Math.PI * 2;
 		}
 

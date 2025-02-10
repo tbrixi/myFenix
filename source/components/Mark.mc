@@ -1,4 +1,5 @@
 import Toybox.Graphics;
+
 class Mark {
 	function render(dc as Dc) {
 		var type = Util.getValue("marksType");
