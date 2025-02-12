@@ -17,7 +17,13 @@ class MarkMarkersNumber {
 		}
 
 		var numbers = getNumbers();
-		var font = WatchUi.loadResource($.Rez.Fonts.av_32);
+
+		var fontSize = $.Rez.Fonts.av_32;
+		if (ScreenUtil.screenWidth > 260) {
+			fontSize = $.Rez.Fonts.av_42;
+		}
+
+		var font = WatchUi.loadResource(fontSize);
 
 		dc.setColor(Util.getValue("analogTimeColor"), Graphics.COLOR_TRANSPARENT);
 

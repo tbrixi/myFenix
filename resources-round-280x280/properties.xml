@@ -1,0 +1,49 @@
+<properties>
+	<property id="bluetoothX" type="number">77</property>
+	<property id="bluetoothY" type="number">65</property>
+
+	<property id="alarmX" type="number">98</property>
+	<property id="alarmY" type="number">65</property>
+
+	<property id="batteryX" type="number">140</property>
+	<property id="batteryY" type="number">61</property>
+
+	<property id="notificationX" type="number">187</property>
+	<property id="notificationY" type="number">67</property>
+
+	<property id="stepsX" type="number">91</property>
+	<property id="stepsY" type="number">125</property>
+	<property id="stepsIcoX" type="number">-12</property>
+	<property id="stepsIcoY" type="number">8</property>
+
+	<property id="distanceX" type="number">196</property>
+	<property id="distanceY" type="number">125</property>
+
+	<property id="dateX" type="number">140</property>
+	<property id="dateY" type="number">89</property>
+
+	<property id="digitimeX" type="number">140</property>
+	<property id="digitimeY" type="number">166</property>
+
+	<property id="altitudeX" type="number">87</property>
+	<property id="altitudeY" type="number">201</property>
+	<property id="altitudeIcoX" type="number">-12</property>
+	<property id="altitudeIcoY" type="number">8</property>
+
+	<property id="hrX" type="number">182</property>
+	<property id="hrY" type="number">201</property>
+	<property id="hrIcoX" type="number">-17</property>
+	<property id="hrIcoY" type="number">10</property>
+
+	<property id="topRectX" type="number">75</property>
+	<property id="topRectY" type="number">89</property>
+	<property id="topRectW" type="number">130</property>
+	<property id="topRectH" type="number">30</property>
+	<property id="topRectR" type="number">4</property>
+
+	<property id="bottomRectX" type="number">75</property>
+	<property id="bottomRectY" type="number">166</property>
+	<property id="bottomRectW" type="number">130</property>
+	<property id="bottomRectH" type="number">30</property>
+	<property id="bottomRectR" type="number">4</property>
+</properties>

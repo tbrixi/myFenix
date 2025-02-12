@@ -23,7 +23,7 @@ class Battery {
 		dc.drawText(
 			x,
 			y,
-			Graphics.FONT_TINY,
+			Graphics.FONT_XTINY,
 			batteryString,
 			Graphics.TEXT_JUSTIFY_CENTER
 		);

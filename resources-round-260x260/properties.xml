@@ -6,7 +6,7 @@
 	<property id="alarmY" type="number">55</property>
 
 	<property id="batteryX" type="number">130</property>
-	<property id="batteryY" type="number">45</property>
+	<property id="batteryY" type="number">51</property>
 
 	<property id="notificationX" type="number">177</property>
 	<property id="notificationY" type="number">57</property>
