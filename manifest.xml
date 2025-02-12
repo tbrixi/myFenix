@@ -4,6 +4,7 @@
     <iq:application entry="MyFenixApp" id="438D8F997BCE481CA00D4CB67831C215" launcherIcon="@Drawables.launcherIcon" minSdkVersion="1.4.0" name="@Strings.appName" type="watchface">
         <iq:products>
             <iq:product id="approachs60"/>
+            <iq:product id="approachs62"/>
             <iq:product id="d2bravo"/>
             <iq:product id="d2bravo_titanium"/>
             <iq:product id="d2charlie"/>
@@ -20,12 +21,20 @@
             <iq:product id="fenix5splus"/>
             <iq:product id="fenix5x"/>
             <iq:product id="fenix5xplus"/>
+            <iq:product id="fenix6"/>
+            <iq:product id="fenix6pro"/>
             <iq:product id="fenix6s"/>
             <iq:product id="fenix6spro"/>
+            <iq:product id="fenix7"/>
+            <iq:product id="fenix7pro"/>
+            <iq:product id="fenix7pronowifi"/>
             <iq:product id="fenix7s"/>
             <iq:product id="fenix7spro"/>
+            <iq:product id="fenix8solar47mm"/>
             <iq:product id="fr245"/>
             <iq:product id="fr245m"/>
+            <iq:product id="fr255"/>
+            <iq:product id="fr255m"/>
             <iq:product id="fr255s"/>
             <iq:product id="fr255sm"/>
             <iq:product id="fr645"/>
@@ -34,7 +43,10 @@
             <iq:product id="fr935"/>
             <iq:product id="fr945"/>
             <iq:product id="fr945lte"/>
+            <iq:product id="fr955"/>
             <iq:product id="legacyherocaptainmarvel"/>
+            <iq:product id="legacyherofirstavenger"/>
+            <iq:product id="legacysagadarthvader"/>
             <iq:product id="legacysagarey"/>
             <iq:product id="marqadventurer"/>
             <iq:product id="marqathlete"/>
@@ -48,6 +60,7 @@
             <iq:product id="vivoactive3d"/>
             <iq:product id="vivoactive3m"/>
             <iq:product id="vivoactive3mlte"/>
+            <iq:product id="vivoactive4"/>
             <iq:product id="vivoactive4s"/>
         </iq:products>
         <iq:permissions>

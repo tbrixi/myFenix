@@ -26,12 +26,12 @@
 	<property id="digitimeY" type="number">156</property>
 
 	<property id="altitudeX" type="number">77</property>
-	<property id="altitudeY" type="number">186</property>
+	<property id="altitudeY" type="number">191</property>
 	<property id="altitudeIcoX" type="number">-12</property>
 	<property id="altitudeIcoY" type="number">8</property>
 
 	<property id="hrX" type="number">172</property>
-	<property id="hrY" type="number">186</property>
+	<property id="hrY" type="number">191</property>
 	<property id="hrIcoX" type="number">-17</property>
 	<property id="hrIcoY" type="number">9</property>
 
